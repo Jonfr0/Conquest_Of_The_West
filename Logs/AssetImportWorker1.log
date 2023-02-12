@@ -18,13 +18,13 @@ COMMAND LINE ARGUMENTS:
 -name
 AssetImportWorker1
 -projectPath
-/Users/farahfarah/Documents/Unity Games /ConquestOfTheWEST
+/Users/farahfarah/Documents/GitHub/Conquest_Of_The_West
 -logFile
 Logs/AssetImportWorker1.log
 -srvPort
-65351
-Successfully changed project path to: /Users/farahfarah/Documents/Unity Games /ConquestOfTheWEST
-/Users/farahfarah/Documents/Unity Games /ConquestOfTheWEST
+65451
+Successfully changed project path to: /Users/farahfarah/Documents/GitHub/Conquest_Of_The_West
+/Users/farahfarah/Documents/GitHub/Conquest_Of_The_West
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
     "memorysetup-bucket-allocator-granularity=16"
     "memorysetup-bucket-allocator-bucket-count=8"
@@ -54,15 +54,15 @@ Successfully changed project path to: /Users/farahfarah/Documents/Unity Games /C
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [8096982272] Host "[IP] 192.168.1.27 [Port] 0 [Flags] 2 [Guid] 4036025647 [EditorId] 4036025647 [Version] 1048832 [Id] OSXEditor(0,farahs-MacBook-Pro.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [8096982272] Host "[IP] 192.168.1.27 [Port] 0 [Flags] 2 [Guid] 1502788074 [EditorId] 1502788074 [Version] 1048832 [Id] OSXEditor(0,farahs-MacBook-Pro.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [8096982272] Host "[IP] 192.168.1.27 [Port] 0 [Flags] 2 [Guid] 4036025647 [EditorId] 4036025647 [Version] 1048832 [Id] OSXEditor(0,farahs-MacBook-Pro.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [8096982272] Host "[IP] 192.168.1.27 [Port] 0 [Flags] 2 [Guid] 1502788074 [EditorId] 1502788074 [Version] 1048832 [Id] OSXEditor(0,farahs-MacBook-Pro.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
-Refreshing native plugins compatible for Editor in 75.12 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 153.89 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.3.16f1 (4016570cf34f)
 [Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/2021.3.16f1/Unity.app/Contents/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path /Users/farahfarah/Documents/Unity Games /ConquestOfTheWEST/Assets
+[Subsystems] Discovering subsystems at path /Users/farahfarah/Documents/GitHub/Conquest_Of_The_West/Assets
 GfxDevice: creating device client; threaded=0; jobified=0
  preferred device: Apple M1 (high power)
 Metal devices available: 1
@@ -73,93 +73,93 @@ Initialize mono
 Mono path[0] = '/Applications/Unity/Hub/Editor/2021.3.16f1/Unity.app/Contents/Managed'
 Mono path[1] = '/Applications/Unity/Hub/Editor/2021.3.16f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit-macos'
 Mono config path = '/Applications/Unity/Hub/Editor/2021.3.16f1/Unity.app/Contents/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56081
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56185
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: /Applications/Unity/Hub/Editor/2021.3.16f1/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: /Applications/Unity/Hub/Editor/2021.3.16f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
-Registered in 0.001310 seconds.
+Registered in 0.001900 seconds.
 Native extension for OSXStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 77.00 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 78.25 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.444 seconds
+- Completed reload, in  0.512 seconds
 Domain Reload Profiling:
-	ReloadAssembly (444ms)
-		BeginReloadAssembly (62ms)
+	ReloadAssembly (512ms)
+		BeginReloadAssembly (73ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (0ms)
-		EndReloadAssembly (314ms)
-			LoadAssemblies (62ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (71ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (356ms)
+			LoadAssemblies (73ms)
+			RebuildTransferFunctionScriptingTraits (1ms)
+			SetupTypeCache (86ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (25ms)
-			SetupLoadedEditorAssemblies (191ms)
+			RebuildScriptCaches (23ms)
+			SetupLoadedEditorAssemblies (211ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (4ms)
+				InitializePlatformSupportModulesInManaged (5ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (77ms)
-				BeforeProcessingInitializeOnLoad (1ms)
-				ProcessInitializeOnLoadAttributes (84ms)
-				ProcessInitializeOnLoadMethodAttributes (25ms)
+				RefreshPlugins (78ms)
+				BeforeProcessingInitializeOnLoad (4ms)
+				ProcessInitializeOnLoadAttributes (96ms)
+				ProcessInitializeOnLoadMethodAttributes (27ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.002871 seconds.
+Registered in 0.005417 seconds.
 Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image /Users/farahfarah/Documents/Unity Games /ConquestOfTheWEST/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image /Users/farahfarah/Documents/Unity Games /ConquestOfTheWEST/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image /Users/farahfarah/Documents/GitHub/Conquest_Of_The_West/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/farahfarah/Documents/GitHub/Conquest_Of_The_West/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
 Native extension for OSXStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.44 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.46 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.649 seconds
+- Completed reload, in  0.734 seconds
 Domain Reload Profiling:
-	ReloadAssembly (649ms)
-		BeginReloadAssembly (55ms)
+	ReloadAssembly (735ms)
+		BeginReloadAssembly (63ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (3ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (16ms)
-		EndReloadAssembly (526ms)
-			LoadAssemblies (58ms)
+			CreateAndSetChildDomain (21ms)
+		EndReloadAssembly (594ms)
+			LoadAssemblies (61ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (189ms)
+			SetupTypeCache (214ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (37ms)
-			SetupLoadedEditorAssemblies (213ms)
+			RebuildScriptCaches (42ms)
+			SetupLoadedEditorAssemblies (244ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (3ms)
 				SetLoadedEditorAssemblies (0ms)
 				RefreshPlugins (0ms)
-				BeforeProcessingInitializeOnLoad (58ms)
-				ProcessInitializeOnLoadAttributes (138ms)
-				ProcessInitializeOnLoadMethodAttributes (13ms)
-				AfterProcessingInitializeOnLoad (1ms)
+				BeforeProcessingInitializeOnLoad (63ms)
+				ProcessInitializeOnLoadAttributes (158ms)
+				ProcessInitializeOnLoadMethodAttributes (17ms)
+				AfterProcessingInitializeOnLoad (2ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (2ms)
+			AwakeInstancesAfterBackupRestoration (3ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Launching external process: /Applications/Unity/Hub/Editor/2021.3.16f1/Unity.app/Contents/Tools/UnityShaderCompiler
-Launched and connected shader compiler UnityShaderCompiler after 0.23 seconds
-Refreshing native plugins compatible for Editor in 0.48 ms, found 2 plugins.
+Launched and connected shader compiler UnityShaderCompiler after 0.24 seconds
+Refreshing native plugins compatible for Editor in 0.70 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3562 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 39 unused Assets / (1.4 MB). Loaded Objects now: 4008.
-Memory consumption went from 131.2 MB to 129.8 MB.
-Total: 3.171959 ms (FindLiveObjects: 0.164792 ms CreateObjectMapping: 0.049083 ms MarkObjects: 2.458875 ms  DeleteObjects: 0.498083 ms)
+Unloading 3557 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 38 unused Assets / (1.2 MB). Loaded Objects now: 4005.
+Memory consumption went from 131.2 MB to 130.0 MB.
+Total: 5.378375 ms (FindLiveObjects: 0.225500 ms CreateObjectMapping: 0.121584 ms MarkObjects: 4.351833 ms  DeleteObjects: 0.678542 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -173,69 +173,421 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 1376662.365091 seconds.
-  path: Assets/Scenes
-  artifactKey: Guid(6ea315d0fd7389c41b19996891e99ae3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes using Guid(6ea315d0fd7389c41b19996891e99ae3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8193726cff86800c54781cdc6d54904') in 0.006934 seconds 
+  Time since last request: 1377368.414111 seconds.
+  path: Assets/Crest/Crest-Examples/Shared/Materials/TestSkybox.mat
+  artifactKey: Guid(e5365841cb1f8bc42a6fdbf574f0c32f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Crest/Crest-Examples/Shared/Materials/TestSkybox.mat using Guid(e5365841cb1f8bc42a6fdbf574f0c32f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b7e7be17a6dcad67658904e7ddfff5a') in 0.440135 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 41.937767 seconds.
-  path: Assets/crest-4.16/logo/crest-oceanrender-logomark128.png
-  artifactKey: Guid(69d5efeff7a4842428c5f3ec5817adf4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/crest-4.16/logo/crest-oceanrender-logomark128.png using Guid(69d5efeff7a4842428c5f3ec5817adf4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '353815545b679c09fe66b3908961edab') in 0.685418 seconds 
+  Time since last request: 0.000074 seconds.
+  path: Assets/Crest/Crest-Examples/Shared/Materials/White.mat
+  artifactKey: Guid(4d86ba26ab6f348dd899f0320d78bf11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Crest/Crest-Examples/Shared/Materials/White.mat using Guid(4d86ba26ab6f348dd899f0320d78bf11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7959386385e8d72765a768963f67fe79') in 0.254509 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000209 seconds.
-  path: Assets/crest-4.16/logo/crest-oceanrender-watermark.psd
-  artifactKey: Guid(2608fd11b481d470ebe733e0ec4b37c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/crest-4.16/logo/crest-oceanrender-watermark.psd using Guid(2608fd11b481d470ebe733e0ec4b37c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de8c9c252ec68fe0c26a70837e275355') in 0.343171 seconds 
+  Time since last request: 17.912417 seconds.
+  path: Assets/Crest/Crest-Examples/BoatDev/Data/BoatAlignNormal.prefab
+  artifactKey: Guid(71ede3c2ab0b7cb43b7dad6ae3b6190b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Crest/Crest-Examples/BoatDev/Data/BoatAlignNormal.prefab using Guid(71ede3c2ab0b7cb43b7dad6ae3b6190b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab5e45808849ad2cbd47d0d866df5cec') in 0.069495 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000072 seconds.
+  path: Assets/Crest/Crest-Examples/Shared/Prefabs/DemoCamera.prefab
+  artifactKey: Guid(cada5253abff1481b98c0880eb065d8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Crest/Crest-Examples/Shared/Prefabs/DemoCamera.prefab using Guid(cada5253abff1481b98c0880eb065d8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3cc49c6fccd0e380da6049b7d7d45626') in 0.006008 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/Crest/Crest-Examples/Main/Scenes/Internal/MainSceneCore.prefab
+  artifactKey: Guid(4a4c6b5fe04934b008bebbd1e74e128a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Crest/Crest-Examples/Main/Scenes/Internal/MainSceneCore.prefab using Guid(4a4c6b5fe04934b008bebbd1e74e128a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a3354f3049666b65655a04a8fee73e2d') in 0.053209 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/Crest/Crest-Examples/LakesAndRivers/Scenes/Internal/LakesAndRiversSceneCore.prefab
+  artifactKey: Guid(1c88c3605046f48589f62f58e96ce897) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Crest/Crest-Examples/LakesAndRivers/Scenes/Internal/LakesAndRiversSceneCore.prefab using Guid(1c88c3605046f48589f62f58e96ce897) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '20ad14f4b29cfa119a9bccda6176bb7d') in 0.564155 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/Crest/Crest-Examples/BoatDev/Data/OceanLiner.prefab
+  artifactKey: Guid(fab3f04ce74996c4c806ab300d4abf45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Crest/Crest-Examples/BoatDev/Data/OceanLiner.prefab using Guid(fab3f04ce74996c4c806ab300d4abf45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6955fa082d0e3985fd70fc81d63a7f43') in 0.011224 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/Crest/Crest-Examples/BoatDev/Models/OldBoat/RowBoat.prefab
+  artifactKey: Guid(d954bade270d6474e8d7b513f76b114c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Crest/Crest-Examples/BoatDev/Models/OldBoat/RowBoat.prefab using Guid(d954bade270d6474e8d7b513f76b114c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a899b574968e824166b7e5e0df848f09') in 0.007400 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000057 seconds.
+  path: Assets/Crest/Crest-Examples/Shared/Prefabs/Internal/DemoLightingCore.prefab
+  artifactKey: Guid(b6069949fba7447df912e15e0e4a0e31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Crest/Crest-Examples/Shared/Prefabs/Internal/DemoLightingCore.prefab using Guid(b6069949fba7447df912e15e0e4a0e31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '20eb864e228709319b8732ab354891c8') in 0.002495 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/Crest/Crest-Examples/Examples/Scenes/Internal/ExamplesSceneCore.prefab
+  artifactKey: Guid(7c2511cd54ca84f02977b64a55693638) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Crest/Crest-Examples/Examples/Scenes/Internal/ExamplesSceneCore.prefab using Guid(7c2511cd54ca84f02977b64a55693638) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a223c7c3cd7dc97957ffe8ab5bdec87c') in 0.094521 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Crest/Crest-Examples/BoatDev/Models/OldBoat/OldBoat.obj
+  artifactKey: Guid(62ccde94e774dba4c8620e847d94f072) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Crest/Crest-Examples/BoatDev/Models/OldBoat/OldBoat.obj using Guid(62ccde94e774dba4c8620e847d94f072) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '546439c7815eade3a27950324f32f5c9') in 1.874900 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000143 seconds.
+  path: Assets/Crest/Crest-Examples/BoatDev/Materials/AddBumpsToWater.mat
+  artifactKey: Guid(eeaa0c078e2f0c343a9857a37a43ba19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Crest/Crest-Examples/BoatDev/Materials/AddBumpsToWater.mat using Guid(eeaa0c078e2f0c343a9857a37a43ba19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '54d32878405381f30a02a9c0ecb9594c') in 0.063581 seconds 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.002486 seconds.
+Registered in 0.001736 seconds.
 Begin MonoManager ReloadAssembly
-Thread 0x28ca87000 may have been prematurely finalized
-Symbol file LoadedFromMemory doesn't match image /Users/farahfarah/Documents/Unity Games /ConquestOfTheWEST/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image /Users/farahfarah/Documents/Unity Games /ConquestOfTheWEST/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Thread 0x2921e3000 may have been prematurely finalized
+Symbol file LoadedFromMemory doesn't match image /Users/farahfarah/Documents/GitHub/Conquest_Of_The_West/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/farahfarah/Documents/GitHub/Conquest_Of_The_West/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.07 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.794 seconds
+Domain Reload Profiling:
+	ReloadAssembly (795ms)
+		BeginReloadAssembly (197ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (7ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (83ms)
+		EndReloadAssembly (533ms)
+			LoadAssemblies (63ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (218ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (32ms)
+			SetupLoadedEditorAssemblies (208ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (7ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (45ms)
+				ProcessInitializeOnLoadAttributes (138ms)
+				ProcessInitializeOnLoadMethodAttributes (15ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (3ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.10 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3496 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 49 unused Assets / (1.4 MB). Loaded Objects now: 4070.
+Memory consumption went from 146.1 MB to 144.7 MB.
+Total: 3.802708 ms (FindLiveObjects: 0.211083 ms CreateObjectMapping: 0.152458 ms MarkObjects: 3.006959 ms  DeleteObjects: 0.430458 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 1875.399517 seconds.
+  path: Assets/Crest/Crest-Examples/Main/Scenes/Nokobot/ColonialShip/04_Materials/Boxes+TreasureChests.mat
+  artifactKey: Guid(0b858c0472fbea043a047d2755ac2bcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Crest/Crest-Examples/Main/Scenes/Nokobot/ColonialShip/04_Materials/Boxes+TreasureChests.mat using Guid(0b858c0472fbea043a047d2755ac2bcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa3e6b4d78c5c7e1d04627bf359fb22e') in 0.712910 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000250 seconds.
+  path: Assets/Crest/Crest-Examples/Main/Scenes/Nokobot/ColonialShip/04_Materials/Sails_Jib+Back.mat
+  artifactKey: Guid(3ddd297bea76a354b8efb54f70edc2a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Crest/Crest-Examples/Main/Scenes/Nokobot/ColonialShip/04_Materials/Sails_Jib+Back.mat using Guid(3ddd297bea76a354b8efb54f70edc2a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '40519e4453df39b1d00dd9092ca9cbe8') in 0.010744 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/Crest/Crest-Examples/Main/Scenes/Nokobot/ColonialShip/04_Materials/Rail_Blue.mat
+  artifactKey: Guid(a1392dcbe770cce4689f41b627156c05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Crest/Crest-Examples/Main/Scenes/Nokobot/ColonialShip/04_Materials/Rail_Blue.mat using Guid(a1392dcbe770cce4689f41b627156c05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '85c4322f6677ef5648336b16804bf021') in 0.006984 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000058 seconds.
+  path: Assets/Crest/Crest-Examples/Main/Scenes/Nokobot/ColonialShip/04_Materials/Staircase.mat
+  artifactKey: Guid(d4aa2007a76206a43b9c6005fa700578) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Crest/Crest-Examples/Main/Scenes/Nokobot/ColonialShip/04_Materials/Staircase.mat using Guid(d4aa2007a76206a43b9c6005fa700578) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b970384ba2f8b68dc5ffa1c5c78ac64') in 0.009344 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Crest/Crest-Examples/Main/Scenes/Nokobot/ColonialShip/04_Materials/Mast_01+Box.mat
+  artifactKey: Guid(5f8bba7c845b41c499c6cfd3d12a7f1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Crest/Crest-Examples/Main/Scenes/Nokobot/ColonialShip/04_Materials/Mast_01+Box.mat using Guid(5f8bba7c845b41c499c6cfd3d12a7f1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '81de62a150aea2b4d6d337db40fab610') in 0.009319 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/Crest/Crest-Examples/Main/Scenes/Nokobot/ColonialShip/04_Materials/Rig.mat
+  artifactKey: Guid(59469521f896d164898146b28196cd8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Crest/Crest-Examples/Main/Scenes/Nokobot/ColonialShip/04_Materials/Rig.mat using Guid(59469521f896d164898146b28196cd8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ee35ce8302c96a399c49c4e5fcbbd5a') in 0.010602 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000073 seconds.
+  path: Assets/Crest/Crest-Examples/Main/Scenes/Nokobot/ColonialShip/04_Materials/Sandbags+Lanterns.mat
+  artifactKey: Guid(d89ec6ee8d2474c41981d7ca2fa3e6a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Crest/Crest-Examples/Main/Scenes/Nokobot/ColonialShip/04_Materials/Sandbags+Lanterns.mat using Guid(d89ec6ee8d2474c41981d7ca2fa3e6a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5103537ceb53ecca03fb8266af236001') in 0.009847 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000059 seconds.
+  path: Assets/Crest/Crest-Examples/Main/Scenes/Nokobot/ColonialShip/04_Materials/Sails_02+Ladders+Foremast.mat
+  artifactKey: Guid(903c58336e056674dbf66d57288058b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Crest/Crest-Examples/Main/Scenes/Nokobot/ColonialShip/04_Materials/Sails_02+Ladders+Foremast.mat using Guid(903c58336e056674dbf66d57288058b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '881c8a47da7e1c11535ab0c238e144e4') in 0.010198 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.080430 seconds.
+  path: Assets/Crest/Crest-Examples/Main/Scenes/Nokobot/ColonialShip/05_Textures/Boxes+TreasureBoxes.png
+  artifactKey: Guid(2995827a8d533d84eac04fae70b0a3ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Crest/Crest-Examples/Main/Scenes/Nokobot/ColonialShip/05_Textures/Boxes+TreasureBoxes.png using Guid(2995827a8d533d84eac04fae70b0a3ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '08254c15d5cca008b05e3b86fa7c58e3') in 0.701628 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001906 seconds.
+Begin MonoManager ReloadAssembly
+Thread 0x1703b7000 may have been prematurely finalized
+Symbol file LoadedFromMemory doesn't match image /Users/farahfarah/Documents/GitHub/Conquest_Of_The_West/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/farahfarah/Documents/GitHub/Conquest_Of_The_West/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.56 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.710 seconds
+Domain Reload Profiling:
+	ReloadAssembly (710ms)
+		BeginReloadAssembly (170ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (10ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (68ms)
+		EndReloadAssembly (483ms)
+			LoadAssemblies (77ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (202ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (26ms)
+			SetupLoadedEditorAssemblies (187ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (39ms)
+				ProcessInitializeOnLoadAttributes (125ms)
+				ProcessInitializeOnLoadMethodAttributes (15ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (2ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.07 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3496 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 31 unused Assets / (1.2 MB). Loaded Objects now: 4076.
+Memory consumption went from 150.2 MB to 149.1 MB.
+Total: 3.169500 ms (FindLiveObjects: 0.174209 ms CreateObjectMapping: 0.082958 ms MarkObjects: 2.749125 ms  DeleteObjects: 0.162625 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 92.561764 seconds.
+  path: Assets/Crest/Crest/Textures/Foam2.png
+  artifactKey: Guid(02e417d5711139342884479f53dbecea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Crest/Crest/Textures/Foam2.png using Guid(02e417d5711139342884479f53dbecea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '975f86f3b8067d9f6a8a96d9a5e7f2d0') in 0.093957 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000071 seconds.
+  path: Assets/Crest/Crest/Textures/Caustics/Caustics_tex_color.png
+  artifactKey: Guid(1712f23cb5185144fa2614d2da21b39e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Crest/Crest/Textures/Caustics/Caustics_tex_color.png using Guid(1712f23cb5185144fa2614d2da21b39e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '321c1b1da07788f32d7db9aeca278a8a') in 0.006152 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002168 seconds.
+Begin MonoManager ReloadAssembly
+Thread 0x16fdb3000 may have been prematurely finalized
+Symbol file LoadedFromMemory doesn't match image /Users/farahfarah/Documents/GitHub/Conquest_Of_The_West/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/farahfarah/Documents/GitHub/Conquest_Of_The_West/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.91 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.713 seconds
+Domain Reload Profiling:
+	ReloadAssembly (714ms)
+		BeginReloadAssembly (129ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (69ms)
+		EndReloadAssembly (522ms)
+			LoadAssemblies (40ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (208ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (34ms)
+			SetupLoadedEditorAssemblies (210ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (6ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (44ms)
+				ProcessInitializeOnLoadAttributes (139ms)
+				ProcessInitializeOnLoadMethodAttributes (19ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (3ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.16 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3496 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 31 unused Assets / (1.2 MB). Loaded Objects now: 4079.
+Memory consumption went from 150.2 MB to 149.1 MB.
+Total: 3.429167 ms (FindLiveObjects: 0.186584 ms CreateObjectMapping: 0.057583 ms MarkObjects: 2.648916 ms  DeleteObjects: 0.535417 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002794 seconds.
+Begin MonoManager ReloadAssembly
+Thread 0x16fdb3000 may have been prematurely finalized
+Symbol file LoadedFromMemory doesn't match image /Users/farahfarah/Documents/GitHub/Conquest_Of_The_West/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/farahfarah/Documents/GitHub/Conquest_Of_The_West/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.24 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.739 seconds
+Domain Reload Profiling:
+	ReloadAssembly (740ms)
+		BeginReloadAssembly (141ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (68ms)
+		EndReloadAssembly (531ms)
+			LoadAssemblies (47ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (207ms)
+			ReleaseScriptCaches (8ms)
+			RebuildScriptCaches (44ms)
+			SetupLoadedEditorAssemblies (204ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (7ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (43ms)
+				ProcessInitializeOnLoadAttributes (136ms)
+				ProcessInitializeOnLoadMethodAttributes (15ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (3ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.22 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3496 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 31 unused Assets / (1.2 MB). Loaded Objects now: 4082.
+Memory consumption went from 150.3 MB to 149.1 MB.
+Total: 4.133041 ms (FindLiveObjects: 0.202791 ms CreateObjectMapping: 0.451833 ms MarkObjects: 3.273750 ms  DeleteObjects: 0.204125 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002259 seconds.
+Begin MonoManager ReloadAssembly
+Thread 0x16fdb3000 may have been prematurely finalized
+Symbol file LoadedFromMemory doesn't match image /Users/farahfarah/Documents/GitHub/Conquest_Of_The_West/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/farahfarah/Documents/GitHub/Conquest_Of_The_West/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
 Native extension for OSXStandalone target not found
 Native extension for WebGL target not found
 Refreshing native plugins compatible for Editor in 0.34 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.601 seconds
+- Completed reload, in  0.610 seconds
 Domain Reload Profiling:
-	ReloadAssembly (602ms)
-		BeginReloadAssembly (105ms)
+	ReloadAssembly (610ms)
+		BeginReloadAssembly (113ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (5ms)
+			DisableScriptedObjects (4ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (47ms)
-		EndReloadAssembly (437ms)
-			LoadAssemblies (43ms)
+			CreateAndSetChildDomain (42ms)
+		EndReloadAssembly (440ms)
+			LoadAssemblies (32ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (169ms)
+			SetupTypeCache (176ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (25ms)
-			SetupLoadedEditorAssemblies (175ms)
+			RebuildScriptCaches (27ms)
+			SetupLoadedEditorAssemblies (178ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (5ms)
+				InitializePlatformSupportModulesInManaged (6ms)
 				SetLoadedEditorAssemblies (0ms)
 				RefreshPlugins (0ms)
 				BeforeProcessingInitializeOnLoad (39ms)
-				ProcessInitializeOnLoadAttributes (117ms)
+				ProcessInitializeOnLoadAttributes (120ms)
 				ProcessInitializeOnLoadMethodAttributes (12ms)
 				AfterProcessingInitializeOnLoad (1ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (2ms)
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.89 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.93 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3356 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 147 unused Assets / (65.3 KB). Loaded Objects now: 3887.
-Memory consumption went from 126.5 MB to 126.4 MB.
-Total: 2.551750 ms (FindLiveObjects: 0.148125 ms CreateObjectMapping: 0.056916 ms MarkObjects: 2.263209 ms  DeleteObjects: 0.083042 ms)
+Unloading 3496 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 31 unused Assets / (1.2 MB). Loaded Objects now: 4085.
+Memory consumption went from 150.3 MB to 149.1 MB.
+Total: 2.458958 ms (FindLiveObjects: 0.134458 ms CreateObjectMapping: 0.046667 ms MarkObjects: 2.125792 ms  DeleteObjects: 0.151541 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -248,60 +600,260 @@ AssetImportParameters requested are different than current active one (requested
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001746 seconds.
-Begin MonoManager ReloadAssembly
-Thread 0x16af87000 may have been prematurely finalized
-Symbol file LoadedFromMemory doesn't match image /Users/farahfarah/Documents/Unity Games /ConquestOfTheWEST/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image /Users/farahfarah/Documents/Unity Games /ConquestOfTheWEST/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
-Native extension for OSXStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.53 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.635 seconds
-Domain Reload Profiling:
-	ReloadAssembly (636ms)
-		BeginReloadAssembly (107ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (4ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (41ms)
-		EndReloadAssembly (469ms)
-			LoadAssemblies (45ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (186ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (27ms)
-			SetupLoadedEditorAssemblies (186ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (6ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (43ms)
-				ProcessInitializeOnLoadAttributes (123ms)
-				ProcessInitializeOnLoadMethodAttributes (12ms)
-				AfterProcessingInitializeOnLoad (1ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (2ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.83 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3497 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 32 unused Assets / (1.2 MB). Loaded Objects now: 4015.
-Memory consumption went from 132.7 MB to 131.6 MB.
-Total: 2.636000 ms (FindLiveObjects: 0.149834 ms CreateObjectMapping: 0.062125 ms MarkObjects: 2.249292 ms  DeleteObjects: 0.173667 ms)
+Received Import Request.
+  Time since last request: 671.158054 seconds.
+  path: Assets/Crest/Crest-Examples/BoatDev/Materials/DynWavesAddBump.mat
+  artifactKey: Guid(6ab0fd16cc1e4194fb3b8489cffa3afc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Crest/Crest-Examples/BoatDev/Materials/DynWavesAddBump.mat using Guid(6ab0fd16cc1e4194fb3b8489cffa3afc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b111bd66279cd5f303fc1f9a6c6ab7e4') in 0.443537 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000123 seconds.
+  path: Assets/Crest/Crest-Examples/Examples/Materials/Examples_Material_MaskedNavalMine.mat
+  artifactKey: Guid(1007d547077f34cd7a8069a7f45c00fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Crest/Crest-Examples/Examples/Materials/Examples_Material_MaskedNavalMine.mat using Guid(1007d547077f34cd7a8069a7f45c00fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df5b68857e285190b700dbe54b361257') in 0.510960 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Crest/Crest-Examples/Examples/Materials/Examples_Material_FoamOverrideZero.mat
+  artifactKey: Guid(dedb48ec93e47a44691254da0aa8f80b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Crest/Crest-Examples/Examples/Materials/Examples_Material_FoamOverrideZero.mat using Guid(dedb48ec93e47a44691254da0aa8f80b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a8d4fe952dc94953bc6fe395dcc6b48') in 0.012365 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000057 seconds.
+  path: Assets/Crest/Crest-Examples/Examples/Materials/Examples_Material_MaskedDepth.mat
+  artifactKey: Guid(279f4fd3ddf8b437e9347617b80ca28f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Crest/Crest-Examples/Examples/Materials/Examples_Material_MaskedDepth.mat using Guid(279f4fd3ddf8b437e9347617b80ca28f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e9877cfc55aec2e21d7639577b75de48') in 0.013411 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Crest/Crest-Examples/Examples/Materials/Examples_Material_ShadowOverrideOne.mat
+  artifactKey: Guid(5d1484205d7c8684dad9be03b414024f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Crest/Crest-Examples/Examples/Materials/Examples_Material_ShadowOverrideOne.mat using Guid(5d1484205d7c8684dad9be03b414024f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a6de22a59656a19a08269d33b78a927a') in 0.012718 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/Crest/Crest-Examples/Examples/Materials/Examples_Material_AlbedoCrestLogo.mat
+  artifactKey: Guid(e40b4c328aeec4f43943883ee9c70ccc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Crest/Crest-Examples/Examples/Materials/Examples_Material_AlbedoCrestLogo.mat using Guid(e40b4c328aeec4f43943883ee9c70ccc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c52190fe75e5176306cee0a4b600579') in 0.057160 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/Crest/Crest-Examples/Examples/Materials/Examples_Material_MaskedMarineSnow.mat
+  artifactKey: Guid(b2905ccbb08234e43a7e6326fb8b92cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Crest/Crest-Examples/Examples/Materials/Examples_Material_MaskedMarineSnow.mat using Guid(b2905ccbb08234e43a7e6326fb8b92cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '05720cbe25ea6e6a9c9a4df4c0a4fcc9') in 0.261170 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/Crest/Crest-Examples/Examples/Materials/Examples_Material_Ripple.mat
+  artifactKey: Guid(adfdf8f9cc92c4cc8bfee81a6385c3db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Crest/Crest-Examples/Examples/Materials/Examples_Material_Ripple.mat using Guid(adfdf8f9cc92c4cc8bfee81a6385c3db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ee7a9482cc1d10011d45fa0fe5e49be') in 0.006044 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Crest/Crest-Examples/Examples/Materials/Examples_Material_TransparentWithUnderwaterFog.mat
+  artifactKey: Guid(f70e0149a6c0ef749bcd1847fea0a67b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Crest/Crest-Examples/Examples/Materials/Examples_Material_TransparentWithUnderwaterFog.mat using Guid(f70e0149a6c0ef749bcd1847fea0a67b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0411b0a9c6188ea380c6496126145076') in 0.357071 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/Crest/Crest-Examples/Examples/Materials/Examples_Material_AddFoam.mat
+  artifactKey: Guid(bd761ca472aded547ad7c481436a7a08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Crest/Crest-Examples/Examples/Materials/Examples_Material_AddFoam.mat using Guid(bd761ca472aded547ad7c481436a7a08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f2a51fbcf90bfafcf6d30163e2eaebcc') in 0.007048 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/Crest/Crest-Examples/Examples/Materials/Examples_Material_FlowFixed.mat
+  artifactKey: Guid(e4b6c9e7f390640079adaf8b99109012) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Crest/Crest-Examples/Examples/Materials/Examples_Material_FlowFixed.mat using Guid(e4b6c9e7f390640079adaf8b99109012) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a224087e57d7337927877becf35c945') in 0.014530 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.310460 seconds.
+  path: Assets/Crest/Crest-Examples/Main/Materials/NavalMine.mat
+  artifactKey: Guid(8439bb68f15c44c8db3c54d02367d07d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Crest/Crest-Examples/Main/Materials/NavalMine.mat using Guid(8439bb68f15c44c8db3c54d02367d07d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '14caabca19d85b9453904c31612e91ae') in 0.164783 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000080 seconds.
+  path: Assets/Crest/Crest/Materials/Ocean_UnderwaterMeniscus.mat
+  artifactKey: Guid(5ec5f3ec071403f4abc8b8c0271a5523) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Crest/Crest/Materials/Ocean_UnderwaterMeniscus.mat using Guid(5ec5f3ec071403f4abc8b8c0271a5523) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed39215d0d2099137c9d252c97121dfa') in 0.019372 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000067 seconds.
+  path: Assets/Crest/Crest/Materials/OceanInputs/WaterLevelFromGeometry.mat
+  artifactKey: Guid(6275fa852a7f1435fa7570404bae86b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Crest/Crest/Materials/OceanInputs/WaterLevelFromGeometry.mat using Guid(6275fa852a7f1435fa7570404bae86b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '420aa3c7bcb92486a2aedfccfd29880b') in 0.013637 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000060 seconds.
+  path: Assets/Crest/Crest/Materials/OceanInputs/WaterHeightFromGeometrySet.mat
+  artifactKey: Guid(50d519b6958dfc14cbb466e674057e7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Crest/Crest/Materials/OceanInputs/WaterHeightFromGeometrySet.mat using Guid(50d519b6958dfc14cbb466e674057e7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Metal: Vertex or Fragment Shader "Crest/Inputs/Animated Waves/Set Water Height Using Geometry" requires a ComputeBuffer at index 1 to be bound, but none provided. Skipping draw calls to avoid crashing.
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEditor.PreviewRenderUtility:Render (bool,bool) (at /Users/bokken/build/output/unity/unity/Editor/Mono/Inspector/PreviewRenderUtility.cs:534)
+UnityEditor.MaterialEditor:DoRenderPreview (UnityEditor.PreviewRenderUtility,bool) (at /Users/bokken/build/output/unity/unity/Editor/Mono/Inspector/MaterialEditor.cs:2261)
+UnityEditor.MaterialEditor:RenderStaticPreview (string,UnityEngine.Object[],int,int) (at /Users/bokken/build/output/unity/unity/Editor/Mono/Inspector/MaterialEditor.cs:2123)
+UnityEditor.AssetPreviewUpdater:CreatePreview (UnityEngine.Object,UnityEngine.Object[],string,int,int) (at /Users/bokken/build/output/unity/unity/Editor/Mono/AssetPreviewUpdater.cs:38)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string) (at /Users/bokken/build/output/unity/unity/Editor/Mono/AssetPreviewUpdater.cs:9)
 
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+[/Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs line 37]
+
+ -> (artifact id: '97d1ad9f459cf5f7d678674a73d89eed') in 0.036543 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000059 seconds.
+  path: Assets/Crest/Crest-Examples/BoatDev/Materials/WaterInteractionBoatProbes.mat
+  artifactKey: Guid(a55f4cbb3148e084ab46fb8abd549665) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Crest/Crest-Examples/BoatDev/Materials/WaterInteractionBoatProbes.mat using Guid(a55f4cbb3148e084ab46fb8abd549665) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b954bee08f95b7d0a0bde626c8c10a0') in 0.015288 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Crest/Crest/Materials/OceanInputs/WaterHeightFromGeometryMax.mat
+  artifactKey: Guid(683f41c248824994082af6c6d5c53245) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Crest/Crest/Materials/OceanInputs/WaterHeightFromGeometryMax.mat using Guid(683f41c248824994082af6c6d5c53245) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Metal: Vertex or Fragment Shader "Crest/Inputs/Animated Waves/Set Base Water Height Using Geometry" requires a ComputeBuffer at index 1 to be bound, but none provided. Skipping draw calls to avoid crashing.
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEditor.PreviewRenderUtility:Render (bool,bool) (at /Users/bokken/build/output/unity/unity/Editor/Mono/Inspector/PreviewRenderUtility.cs:534)
+UnityEditor.MaterialEditor:DoRenderPreview (UnityEditor.PreviewRenderUtility,bool) (at /Users/bokken/build/output/unity/unity/Editor/Mono/Inspector/MaterialEditor.cs:2261)
+UnityEditor.MaterialEditor:RenderStaticPreview (string,UnityEngine.Object[],int,int) (at /Users/bokken/build/output/unity/unity/Editor/Mono/Inspector/MaterialEditor.cs:2123)
+UnityEditor.AssetPreviewUpdater:CreatePreview (UnityEngine.Object,UnityEngine.Object[],string,int,int) (at /Users/bokken/build/output/unity/unity/Editor/Mono/AssetPreviewUpdater.cs:38)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string) (at /Users/bokken/build/output/unity/unity/Editor/Mono/AssetPreviewUpdater.cs:9)
+
+[/Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs line 37]
+
+ -> (artifact id: 'a4751d2f608f8780c52d5738d2a7da90') in 0.020095 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/Crest/Crest-Examples/LakesAndRivers/Prefabs/Skybox/Materials/SkyboxHorizon_Mat.mat
+  artifactKey: Guid(1a2b9cdb7c003454785f9381181bce36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Crest/Crest-Examples/LakesAndRivers/Prefabs/Skybox/Materials/SkyboxHorizon_Mat.mat using Guid(1a2b9cdb7c003454785f9381181bce36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd40bf79f977c5328058aae7eab07a03c') in 0.048791 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/Crest/Crest/Materials/Ocean_UnderwaterCurtain.mat
+  artifactKey: Guid(82d5d473c6433b64593554cc15f927f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Crest/Crest/Materials/Ocean_UnderwaterCurtain.mat using Guid(82d5d473c6433b64593554cc15f927f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Metal: Vertex or Fragment Shader "Crest/Underwater Curtain" requires a ComputeBuffer at index 1 to be bound, but none provided. Skipping draw calls to avoid crashing.
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEditor.PreviewRenderUtility:Render (bool,bool) (at /Users/bokken/build/output/unity/unity/Editor/Mono/Inspector/PreviewRenderUtility.cs:534)
+UnityEditor.MaterialEditor:DoRenderPreview (UnityEditor.PreviewRenderUtility,bool) (at /Users/bokken/build/output/unity/unity/Editor/Mono/Inspector/MaterialEditor.cs:2261)
+UnityEditor.MaterialEditor:RenderStaticPreview (string,UnityEngine.Object[],int,int) (at /Users/bokken/build/output/unity/unity/Editor/Mono/Inspector/MaterialEditor.cs:2123)
+UnityEditor.AssetPreviewUpdater:CreatePreview (UnityEngine.Object,UnityEngine.Object[],string,int,int) (at /Users/bokken/build/output/unity/unity/Editor/Mono/AssetPreviewUpdater.cs:38)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string) (at /Users/bokken/build/output/unity/unity/Editor/Mono/AssetPreviewUpdater.cs:9)
+
+[/Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs line 37]
+
+ -> (artifact id: '9c83b2c4e3904f6bced222a30b961d7f') in 0.183946 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/Crest/Crest/Materials/Ocean-Underwater.mat
+  artifactKey: Guid(ef94c26e44a36e24a9dcbc5995a2bed1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Crest/Crest/Materials/Ocean-Underwater.mat using Guid(ef94c26e44a36e24a9dcbc5995a2bed1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Metal: Vertex or Fragment Shader "Crest/Ocean" requires a ComputeBuffer at index 1 to be bound, but none provided. Skipping draw calls to avoid crashing.
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEditor.PreviewRenderUtility:Render (bool,bool) (at /Users/bokken/build/output/unity/unity/Editor/Mono/Inspector/PreviewRenderUtility.cs:534)
+UnityEditor.MaterialEditor:DoRenderPreview (UnityEditor.PreviewRenderUtility,bool) (at /Users/bokken/build/output/unity/unity/Editor/Mono/Inspector/MaterialEditor.cs:2261)
+UnityEditor.MaterialEditor:RenderStaticPreview (string,UnityEngine.Object[],int,int) (at /Users/bokken/build/output/unity/unity/Editor/Mono/Inspector/MaterialEditor.cs:2123)
+UnityEditor.AssetPreviewUpdater:CreatePreview (UnityEngine.Object,UnityEngine.Object[],string,int,int) (at /Users/bokken/build/output/unity/unity/Editor/Mono/AssetPreviewUpdater.cs:38)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string) (at /Users/bokken/build/output/unity/unity/Editor/Mono/AssetPreviewUpdater.cs:9)
+
+[/Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs line 37]
+
+ -> (artifact id: '9e9af98fad4a938aec7b03e7d01732c2') in 0.382995 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000064 seconds.
+  path: Assets/Crest/Crest-Examples/BoatDev/Materials/WaterInteractionOceanLinerFront.mat
+  artifactKey: Guid(782a3fbdecc34e14796b312a6ab45da1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Crest/Crest-Examples/BoatDev/Materials/WaterInteractionOceanLinerFront.mat using Guid(782a3fbdecc34e14796b312a6ab45da1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab4a0332021d0af9446c3de8f9a8f54f') in 0.005792 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Crest/Crest-Examples/BoatDev/Materials/WaterInteractionOceanLinerBack.mat
+  artifactKey: Guid(8b9eb32f5fa04f040bad0f971a4a7b36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Crest/Crest-Examples/BoatDev/Materials/WaterInteractionOceanLinerBack.mat using Guid(8b9eb32f5fa04f040bad0f971a4a7b36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '938791e85b0459e2612cfb3c8a9a9715') in 0.008242 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000078 seconds.
+  path: Assets/Crest/Crest/Materials/OceanInputs/ShadowOverride.mat
+  artifactKey: Guid(6dfb3029d5c5f426f8a254f93efe9b40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Crest/Crest/Materials/OceanInputs/ShadowOverride.mat using Guid(6dfb3029d5c5f426f8a254f93efe9b40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0793e6eaf44241ccfc5f24c6bd216092') in 0.005446 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/Crest/Crest-Examples/BoatDev/Materials/PushWaterBelowSphere.mat
+  artifactKey: Guid(5a7857086017c664189557159ecd9f86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Crest/Crest-Examples/BoatDev/Materials/PushWaterBelowSphere.mat using Guid(5a7857086017c664189557159ecd9f86) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Metal: Vertex or Fragment Shader "Crest/Inputs/Animated Waves/Push Water Under Convex Hull" requires a ComputeBuffer at index 1 to be bound, but none provided. Skipping draw calls to avoid crashing.
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEditor.PreviewRenderUtility:Render (bool,bool) (at /Users/bokken/build/output/unity/unity/Editor/Mono/Inspector/PreviewRenderUtility.cs:534)
+UnityEditor.MaterialEditor:DoRenderPreview (UnityEditor.PreviewRenderUtility,bool) (at /Users/bokken/build/output/unity/unity/Editor/Mono/Inspector/MaterialEditor.cs:2261)
+UnityEditor.MaterialEditor:RenderStaticPreview (string,UnityEngine.Object[],int,int) (at /Users/bokken/build/output/unity/unity/Editor/Mono/Inspector/MaterialEditor.cs:2123)
+UnityEditor.AssetPreviewUpdater:CreatePreview (UnityEngine.Object,UnityEngine.Object[],string,int,int) (at /Users/bokken/build/output/unity/unity/Editor/Mono/AssetPreviewUpdater.cs:38)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string) (at /Users/bokken/build/output/unity/unity/Editor/Mono/AssetPreviewUpdater.cs:9)
+
+[/Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs line 37]
+
+ -> (artifact id: 'a49fda1fffbf2ceed555520cc899b31b') in 0.012290 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000068 seconds.
+  path: Assets/Crest/Crest-Examples/Whirlpool/Materials/Ocean-Flow.mat
+  artifactKey: Guid(5cca1e9734badca47a1fff682d3c122b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Crest/Crest-Examples/Whirlpool/Materials/Ocean-Flow.mat using Guid(5cca1e9734badca47a1fff682d3c122b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9955f2da9db88e787c35155371489c28') in 0.373966 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000073 seconds.
+  path: Assets/Crest/Crest-Examples/BoatDev/Materials/WaterInteractionBoatAlignNormalFront.mat
+  artifactKey: Guid(c1eb396e3637d6147bfc5409e8f1f4be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Crest/Crest-Examples/BoatDev/Materials/WaterInteractionBoatAlignNormalFront.mat using Guid(c1eb396e3637d6147bfc5409e8f1f4be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4dbc91591627630d111ec7d62742e912') in 0.005523 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/Crest/Crest-Examples/Main/Materials/OceanAlpha_CrestLogo.mat
+  artifactKey: Guid(c2bfe9cdbddfb4a4aba12602cfa9c8ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Crest/Crest-Examples/Main/Materials/OceanAlpha_CrestLogo.mat using Guid(c2bfe9cdbddfb4a4aba12602cfa9c8ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Metal: Vertex or Fragment Shader "Crest/Ocean Surface Alpha" requires a ComputeBuffer at index 2 to be bound, but none provided. Skipping draw calls to avoid crashing.
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEditor.PreviewRenderUtility:Render (bool,bool) (at /Users/bokken/build/output/unity/unity/Editor/Mono/Inspector/PreviewRenderUtility.cs:534)
+UnityEditor.MaterialEditor:DoRenderPreview (UnityEditor.PreviewRenderUtility,bool) (at /Users/bokken/build/output/unity/unity/Editor/Mono/Inspector/MaterialEditor.cs:2261)
+UnityEditor.MaterialEditor:RenderStaticPreview (string,UnityEngine.Object[],int,int) (at /Users/bokken/build/output/unity/unity/Editor/Mono/Inspector/MaterialEditor.cs:2123)
+UnityEditor.AssetPreviewUpdater:CreatePreview (UnityEngine.Object,UnityEngine.Object[],string,int,int) (at /Users/bokken/build/output/unity/unity/Editor/Mono/AssetPreviewUpdater.cs:38)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string) (at /Users/bokken/build/output/unity/unity/Editor/Mono/AssetPreviewUpdater.cs:9)
+
+[/Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs line 37]
+
+ -> (artifact id: '85c5cc5db773e9330db0ec95941ef0eb') in 0.025009 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000100 seconds.
+  path: Assets/Crest/Crest/Materials/OceanInputs/WaterHeightFromGeometryRemove.mat
+  artifactKey: Guid(34136ec51ee03784e9b70e36afe94f0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Crest/Crest/Materials/OceanInputs/WaterHeightFromGeometryRemove.mat using Guid(34136ec51ee03784e9b70e36afe94f0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd7440ae778ce1ea2146ff1ed6883ca43') in 0.006505 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/Crest/Crest/Materials/OceanInputs/WaterHeightFromGeometryAdd.mat
+  artifactKey: Guid(41078fd973318c640a63c0698bbcdad2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Crest/Crest/Materials/OceanInputs/WaterHeightFromGeometryAdd.mat using Guid(41078fd973318c640a63c0698bbcdad2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae8bb8043de2e43d87568bd346cfa882') in 0.009696 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 39.685083 seconds.
+  path: Assets/Nokobot/ColonialShip/02_Prefabs/Colonial Ship_Empty.prefab
+  artifactKey: Guid(1b78331b52629c7479714da987b1a28b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Nokobot/ColonialShip/02_Prefabs/Colonial Ship_Empty.prefab using Guid(1b78331b52629c7479714da987b1a28b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3bddfea272bf4f6f93d51de3c7d29e56') in 0.609374 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 251.438682 seconds.
+  path: Assets/Nokobot/ColonialShip/02_Prefabs/Extra Items/Barrel_Simple.prefab
+  artifactKey: Guid(9ca5b8fd2fa2eb347a3f7730cb9669ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Nokobot/ColonialShip/02_Prefabs/Extra Items/Barrel_Simple.prefab using Guid(9ca5b8fd2fa2eb347a3f7730cb9669ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '51836430d811fdb3cad43aa1ba12e9f8') in 0.060928 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000084 seconds.
+  path: Assets/Nokobot/ColonialShip/02_Prefabs/Extra Items/Cannon.prefab
+  artifactKey: Guid(8f44c0d3686bfa141821b8f91252523e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Nokobot/ColonialShip/02_Prefabs/Extra Items/Cannon.prefab using Guid(8f44c0d3686bfa141821b8f91252523e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '31fb16ede5812a34e31d253122bea946') in 0.011891 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000070 seconds.
+  path: Assets/Nokobot/ColonialShip/02_Prefabs/Extra Items/Treasure_Chest.prefab
+  artifactKey: Guid(82fc0e4611497ae46a3f38db39d20eec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Nokobot/ColonialShip/02_Prefabs/Extra Items/Treasure_Chest.prefab using Guid(82fc0e4611497ae46a3f38db39d20eec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c1d364e9df24b044bab8ff8ad79692d9') in 0.012011 seconds 
