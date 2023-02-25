@@ -1,23 +1,30 @@
+Unity Editor version:    2021.3.16f1 (4016570cf34f)
+Branch:                  2021.3/staging
+Build type:              Release
+Batch mode:              YES
+macOS version:           Version 13.2 (Build 22D49)
+Darwin version:          22.3.0
+Architecture:            arm64
+Running under Rosetta:   NO
+Available memory:        8192 MB
 Using pre-set license
-Built from '2021.3/staging' branch; Version is '2021.3.16f1 (4016570cf34f) revision 4200023'; Using compiler version '192829333'; Build Type 'Release'
-OS: 'Windows 10  (10.0.19044) 64bit Core' Language: 'en' Physical Memory: 16085 MB
-BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+Pro License: YES
 
 COMMAND LINE ARGUMENTS:
-C:\Program Files\Unity\Hub\Editor\2021.3.16f1\Editor\Unity.exe
+/Applications/Unity/Hub/Editor/2021.3.16f1/Unity.app/Contents/MacOS/Unity
 -adb2
 -batchMode
 -noUpm
 -name
 AssetImportWorker1
 -projectPath
-C:/Users/jonfr/Desktop/githubprograms/Conquest_Of_The_West
+/Users/farahfarah/Documents/GitHub/Conquest_Of_The_West
 -logFile
 Logs/AssetImportWorker1.log
 -srvPort
-50852
-Successfully changed project path to: C:/Users/jonfr/Desktop/githubprograms/Conquest_Of_The_West
-C:/Users/jonfr/Desktop/githubprograms/Conquest_Of_The_West
+59342
+Successfully changed project path to: /Users/farahfarah/Documents/GitHub/Conquest_Of_The_West
+/Users/farahfarah/Documents/GitHub/Conquest_Of_The_West
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
     "memorysetup-bucket-allocator-granularity=16"
     "memorysetup-bucket-allocator-bucket-count=8"
@@ -47,253 +54,790 @@ C:/Users/jonfr/Desktop/githubprograms/Conquest_Of_The_West
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [2284] Host "[IP] 192.168.56.1 [Port] 0 [Flags] 2 [Guid] 2970920011 [EditorId] 2970920011 [Version] 1048832 [Id] WindowsEditor(7,MSI) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [8443183360] Host "[IP] 192.168.1.21 [Port] 0 [Flags] 2 [Guid] 3345193581 [EditorId] 3345193581 [Version] 1048832 [Id] OSXEditor(0,farahs-MacBook-Pro.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [2284] Host "[IP] 192.168.56.1 [Port] 0 [Flags] 2 [Guid] 2970920011 [EditorId] 2970920011 [Version] 1048832 [Id] WindowsEditor(7,MSI) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [8443183360] Host "[IP] 192.168.1.21 [Port] 0 [Flags] 2 [Guid] 3345193581 [EditorId] 3345193581 [Version] 1048832 [Id] OSXEditor(0,farahs-MacBook-Pro.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
-Refreshing native plugins compatible for Editor in 125.09 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 76.75 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.3.16f1 (4016570cf34f)
-[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path C:/Users/jonfr/Desktop/githubprograms/Conquest_Of_The_West/Assets
+[Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/2021.3.16f1/Unity.app/Contents/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path /Users/farahfarah/Documents/GitHub/Conquest_Of_The_West/Assets
 GfxDevice: creating device client; threaded=0; jobified=0
-Direct3D:
-    Version:  Direct3D 11.0 [level 11.1]
-    Renderer: NVIDIA GeForce RTX 3060 Laptop GPU (ID=0x2520)
-    Vendor:   NVIDIA
-    VRAM:     6023 MB
-    Driver:   30.0.14.7141
+ preferred device: Apple M1 (high power)
+Metal devices available: 1
+0: Apple M1 (high power)
+Using device Apple M1 (high power)
+Initializing Metal device caps: Apple M1
 Initialize mono
-Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/Managed'
-Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
-Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56500
+Mono path[0] = '/Applications/Unity/Hub/Editor/2021.3.16f1/Unity.app/Contents/Managed'
+Mono path[1] = '/Applications/Unity/Hub/Editor/2021.3.16f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit-macos'
+Mono config path = '/Applications/Unity/Hub/Editor/2021.3.16f1/Unity.app/Contents/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56698
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
-Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.011412 seconds.
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 110.84 ms, found 3 plugins.
+Register platform support module: /Applications/Unity/Hub/Editor/2021.3.16f1/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: /Applications/Unity/Hub/Editor/2021.3.16f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Registered in 0.000537 seconds.
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 74.97 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.825 seconds
+- Completed reload, in  0.391 seconds
 Domain Reload Profiling:
-	ReloadAssembly (826ms)
-		BeginReloadAssembly (105ms)
+	ReloadAssembly (391ms)
+		BeginReloadAssembly (29ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (577ms)
-			LoadAssemblies (101ms)
+			CreateAndSetChildDomain (0ms)
+		EndReloadAssembly (295ms)
+			LoadAssemblies (29ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (124ms)
+			SetupTypeCache (71ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (36ms)
-			SetupLoadedEditorAssemblies (352ms)
+			RebuildScriptCaches (19ms)
+			SetupLoadedEditorAssemblies (179ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (9ms)
+				InitializePlatformSupportModulesInManaged (4ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (111ms)
-				BeforeProcessingInitializeOnLoad (2ms)
-				ProcessInitializeOnLoadAttributes (178ms)
-				ProcessInitializeOnLoadMethodAttributes (52ms)
+				RefreshPlugins (75ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (75ms)
+				ProcessInitializeOnLoadMethodAttributes (24ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.012127 seconds.
+Registered in 0.001660 seconds.
 Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\jonfr\Desktop\githubprograms\Conquest_Of_The_West\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\jonfr\Desktop\githubprograms\Conquest_Of_The_West\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.74 ms, found 3 plugins.
+Symbol file LoadedFromMemory doesn't match image /Users/farahfarah/Documents/GitHub/Conquest_Of_The_West/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/farahfarah/Documents/GitHub/Conquest_Of_The_West/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.38 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.413 seconds
+- Completed reload, in  0.688 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1414ms)
-		BeginReloadAssembly (141ms)
+	ReloadAssembly (690ms)
+		BeginReloadAssembly (53ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (7ms)
+			DisableScriptedObjects (3ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (24ms)
-		EndReloadAssembly (1100ms)
-			LoadAssemblies (112ms)
+			CreateAndSetChildDomain (15ms)
+		EndReloadAssembly (567ms)
+			LoadAssemblies (53ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (359ms)
+			SetupTypeCache (186ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (72ms)
-			SetupLoadedEditorAssemblies (505ms)
+			RebuildScriptCaches (36ms)
+			SetupLoadedEditorAssemblies (264ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (8ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (119ms)
-				ProcessInitializeOnLoadAttributes (333ms)
-				ProcessInitializeOnLoadMethodAttributes (30ms)
-				AfterProcessingInitializeOnLoad (12ms)
+				InitializePlatformSupportModulesInManaged (2ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (56ms)
+				ProcessInitializeOnLoadAttributes (191ms)
+				ProcessInitializeOnLoadMethodAttributes (13ms)
+				AfterProcessingInitializeOnLoad (1ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (8ms)
+			AwakeInstancesAfterBackupRestoration (2ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.08 seconds
-Refreshing native plugins compatible for Editor in 0.69 ms, found 3 plugins.
+Launching external process: /Applications/Unity/Hub/Editor/2021.3.16f1/Unity.app/Contents/Tools/UnityShaderCompiler
+Launched and connected shader compiler UnityShaderCompiler after 0.19 seconds
+Refreshing native plugins compatible for Editor in 0.36 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3557 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 38 unused Assets / (1.2 MB). Loaded Objects now: 4019.
-Memory consumption went from 142.2 MB to 141.0 MB.
-Total: 4.685400 ms (FindLiveObjects: 0.310000 ms CreateObjectMapping: 0.133700 ms MarkObjects: 3.959900 ms  DeleteObjects: 0.280700 ms)
+Unloading 3578 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 38 unused Assets / (1.2 MB). Loaded Objects now: 4040.
+Memory consumption went from 139.4 MB to 138.2 MB.
+Total: 3.285250 ms (FindLiveObjects: 0.153375 ms CreateObjectMapping: 0.046250 ms MarkObjects: 2.741708 ms  DeleteObjects: 0.342625 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
   custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
   custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
   custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 2845.949104 seconds.
-  path: Assets/Crest/Crest-Examples/Crest.Examples.asmdef
-  artifactKey: Guid(edb57cf3ee8ec8049b0d4d1fa1bbe271) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Crest/Crest-Examples/Crest.Examples.asmdef using Guid(edb57cf3ee8ec8049b0d4d1fa1bbe271) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '08ab2a146ef91b4b3e8f150c543f8feb') in 0.022868 seconds 
+  Time since last request: 204175.851765 seconds.
+  path: Assets/New Terrain.asset
+  artifactKey: Guid(f9ca905eacde142e9b43483a05f9572f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/New Terrain.asset using Guid(f9ca905eacde142e9b43483a05f9572f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1969d1c63bb9190274631cbf71b52b48') in 0.160244 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 22.365934 seconds.
-  path: Assets/Crest/Crest-Examples/Examples/Audio/Examples_Audio_WaterPier.flac
-  artifactKey: Guid(87844326d709c4375a39023c2ef63faa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Crest/Crest-Examples/Examples/Audio/Examples_Audio_WaterPier.flac using Guid(87844326d709c4375a39023c2ef63faa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4497d102e943fbc4ac147356cb5aeba5') in 0.156372 seconds 
+  Time since last request: 1111.442466 seconds.
+  path: Assets/crest-master/crest/Assets/Crest/Crest-Examples/BoatDev/Materials/AddBumpsToWater.mat
+  artifactKey: Guid(eeaa0c078e2f0c343a9857a37a43ba19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/crest-master/crest/Assets/Crest/Crest-Examples/BoatDev/Materials/AddBumpsToWater.mat using Guid(eeaa0c078e2f0c343a9857a37a43ba19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e14e31111c9f277dfddba82a769bbe1') in 0.535293 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000110 seconds.
+  path: Assets/crest-master/crest/Assets/Crest/Crest-Examples/Examples/Materials/Examples_Material_MaskedTerrain.mat
+  artifactKey: Guid(9f035f5403287461b869385c9e45272f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/crest-master/crest/Assets/Crest/Crest-Examples/Examples/Materials/Examples_Material_MaskedTerrain.mat using Guid(9f035f5403287461b869385c9e45272f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b6a0dd45c11514fc49cdaaf9b9226e0') in 0.047144 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/crest-master/crest/Assets/Crest/Crest/Materials/OceanInputs/AlbedoColor.mat
+  artifactKey: Guid(80f27b57f26a14e1d98b158bef86a27a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/crest-master/crest/Assets/Crest/Crest/Materials/OceanInputs/AlbedoColor.mat using Guid(80f27b57f26a14e1d98b158bef86a27a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b862a62d94c429a03f25b68d09b5f22') in 0.051900 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/crest-master/crest/Assets/Crest/Crest-Examples/BoatDev/Models/OldBoat/OldBoat.obj
+  artifactKey: Guid(62ccde94e774dba4c8620e847d94f072) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/crest-master/crest/Assets/Crest/Crest-Examples/BoatDev/Models/OldBoat/OldBoat.obj using Guid(62ccde94e774dba4c8620e847d94f072) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c55b962150e091041571d03a81544f85') in 0.197215 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Bird Flocks/Skyboxes/Materials/Brown MAT.mat
+  artifactKey: Guid(2c319bc6346d04c46aa279f51200eed3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Bird Flocks/Skyboxes/Materials/Brown MAT.mat using Guid(2c319bc6346d04c46aa279f51200eed3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b8d0f27b33ad0d7899862bf3379111f') in 0.027741 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/crest-master/crest/Assets/Crest/Crest-Examples/Examples/Materials/Examples_Material_MaskedNavalMine.mat
+  artifactKey: Guid(1007d547077f34cd7a8069a7f45c00fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/crest-master/crest/Assets/Crest/Crest-Examples/Examples/Materials/Examples_Material_MaskedNavalMine.mat using Guid(1007d547077f34cd7a8069a7f45c00fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fdb355b835e2c0b919032b3f8995e80f') in 0.019944 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000070 seconds.
+  path: Assets/crest-master/crest/Assets/Crest/Crest-Examples/Main/Materials/GerstnerPatchFeathered.mat
+  artifactKey: Guid(bdfd078b8d73c974b928eb82ad130c07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/crest-master/crest/Assets/Crest/Crest-Examples/Main/Materials/GerstnerPatchFeathered.mat using Guid(bdfd078b8d73c974b928eb82ad130c07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e8ea6990b3d6602b1c94c4c8c645eb73') in 0.009985 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/crest-master/crest/Assets/Crest/Crest-Examples/Examples/Materials/Examples_Material_FoamOverrideZero.mat
+  artifactKey: Guid(dedb48ec93e47a44691254da0aa8f80b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/crest-master/crest/Assets/Crest/Crest-Examples/Examples/Materials/Examples_Material_FoamOverrideZero.mat using Guid(dedb48ec93e47a44691254da0aa8f80b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf26b9d30e4e245ae29152f7b434e2c1') in 0.012766 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000062 seconds.
+  path: Assets/crest-master/crest/Assets/Crest/Crest-Examples/BoatDev/Materials/BoatGray.mat
+  artifactKey: Guid(f1d75fa3c8725bf438b99c229b0d6734) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/crest-master/crest/Assets/Crest/Crest-Examples/BoatDev/Materials/BoatGray.mat using Guid(f1d75fa3c8725bf438b99c229b0d6734) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '070ed2a74c59c6e4471fc1180b92f6f3') in 0.006786 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000062 seconds.
+  path: Assets/crest-master/crest/Assets/Crest/Crest-Examples/Examples/Materials/Examples_Material_MaskedDepth.mat
+  artifactKey: Guid(279f4fd3ddf8b437e9347617b80ca28f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/crest-master/crest/Assets/Crest/Crest-Examples/Examples/Materials/Examples_Material_MaskedDepth.mat using Guid(279f4fd3ddf8b437e9347617b80ca28f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8dc56c58f1947c749a0016b30ecb4cb7') in 0.012079 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/crest-master/crest/Assets/Crest/Crest-Examples/Examples/Materials/Examples_Material_ShadowOverrideOne.mat
+  artifactKey: Guid(5d1484205d7c8684dad9be03b414024f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/crest-master/crest/Assets/Crest/Crest-Examples/Examples/Materials/Examples_Material_ShadowOverrideOne.mat using Guid(5d1484205d7c8684dad9be03b414024f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '64a4eac57f9ed0663468643dd01e4e7b') in 0.014448 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000057 seconds.
+  path: Assets/crest-master/crest/Assets/Crest/Crest-Examples/Examples/Materials/Examples_Material_AlbedoCrestLogo.mat
+  artifactKey: Guid(e40b4c328aeec4f43943883ee9c70ccc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/crest-master/crest/Assets/Crest/Crest-Examples/Examples/Materials/Examples_Material_AlbedoCrestLogo.mat using Guid(e40b4c328aeec4f43943883ee9c70ccc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '34aa308dc8183d72a5ac6ff07f58b5e4') in 0.007725 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/crest-master/crest/Assets/Crest/Crest-Examples/Shared/Materials/AnimWavesWaveParticle.mat
+  artifactKey: Guid(fe035aa88b517a040a7544e2e217c46b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/crest-master/crest/Assets/Crest/Crest-Examples/Shared/Materials/AnimWavesWaveParticle.mat using Guid(fe035aa88b517a040a7544e2e217c46b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3513672fb45b2bf2a2a8d11180dadad3') in 0.015020 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/crest-master/crest/Assets/Crest/Crest/Materials/OceanInputs/ClipSurfaceConvexHull.mat
+  artifactKey: Guid(53ebdf534c08f483096dbd37ba1c2253) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/crest-master/crest/Assets/Crest/Crest/Materials/OceanInputs/ClipSurfaceConvexHull.mat using Guid(53ebdf534c08f483096dbd37ba1c2253) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Metal: Vertex or Fragment Shader "Crest/Inputs/Clip Surface/Convex Hull" requires a ComputeBuffer at index 1 to be bound, but none provided. Skipping draw calls to avoid crashing.
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEditor.PreviewRenderUtility:Render (bool,bool) (at /Users/bokken/build/output/unity/unity/Editor/Mono/Inspector/PreviewRenderUtility.cs:534)
+UnityEditor.MaterialEditor:DoRenderPreview (UnityEditor.PreviewRenderUtility,bool) (at /Users/bokken/build/output/unity/unity/Editor/Mono/Inspector/MaterialEditor.cs:2261)
+UnityEditor.MaterialEditor:RenderStaticPreview (string,UnityEngine.Object[],int,int) (at /Users/bokken/build/output/unity/unity/Editor/Mono/Inspector/MaterialEditor.cs:2123)
+UnityEditor.AssetPreviewUpdater:CreatePreview (UnityEngine.Object,UnityEngine.Object[],string,int,int) (at /Users/bokken/build/output/unity/unity/Editor/Mono/AssetPreviewUpdater.cs:38)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string) (at /Users/bokken/build/output/unity/unity/Editor/Mono/AssetPreviewUpdater.cs:9)
+
+[/Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs line 37]
+
+ -> (artifact id: 'b1dab3972c1be0db90a0d530a5e4ad9f') in 0.020840 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000066 seconds.
+  path: Assets/crest-master/crest/Assets/Crest/Crest-Examples/BoatDev/Materials/DynWavesAddBump.mat
+  artifactKey: Guid(6ab0fd16cc1e4194fb3b8489cffa3afc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/crest-master/crest/Assets/Crest/Crest-Examples/BoatDev/Materials/DynWavesAddBump.mat using Guid(6ab0fd16cc1e4194fb3b8489cffa3afc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '40d74353cf06a34bfdb6cd7688f6bb16') in 0.012251 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/crest-master/crest/Assets/Crest/Crest-Examples/Examples/Materials/Examples_Material_WavesScaleByFactor.mat
+  artifactKey: Guid(246582b609c364fe1b58409fc147e04c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/crest-master/crest/Assets/Crest/Crest-Examples/Examples/Materials/Examples_Material_WavesScaleByFactor.mat using Guid(246582b609c364fe1b58409fc147e04c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '983a5557d494e44f08c8a1857df1adda') in 0.025897 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000121 seconds.
+  path: Assets/crest-master/crest/Assets/Crest/Crest-Examples/Examples/Materials/Examples_Material_MaskedMarineSnow.mat
+  artifactKey: Guid(b2905ccbb08234e43a7e6326fb8b92cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/crest-master/crest/Assets/Crest/Crest-Examples/Examples/Materials/Examples_Material_MaskedMarineSnow.mat using Guid(b2905ccbb08234e43a7e6326fb8b92cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef81a3c2a05a3f8e5ed68ec9324eeba6') in 0.007001 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Bird Flocks/Skyboxes/Materials/Gray MAT.mat
+  artifactKey: Guid(7cb17d68a419ae547a5a4b4a36f8e000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Bird Flocks/Skyboxes/Materials/Gray MAT.mat using Guid(7cb17d68a419ae547a5a4b4a36f8e000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc3672eab50f91bdb2ad27bd2983e43e') in 0.004952 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/crest-master/crest/Assets/Crest/Crest-Examples/Main/Materials/GerstnerPatch.mat
+  artifactKey: Guid(81bec1ba3a0c4bf428a4c1cc2d71a02c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/crest-master/crest/Assets/Crest/Crest-Examples/Main/Materials/GerstnerPatch.mat using Guid(81bec1ba3a0c4bf428a4c1cc2d71a02c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '69a3cd1974f6638a858160eb2aff48e2') in 0.016080 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000059 seconds.
+  path: Assets/crest-master/crest/Assets/Crest/Crest-Examples/Examples/Materials/Examples_Material_TransparentPrimitive.mat
+  artifactKey: Guid(ecfe7530e35f6ef4599de91f34369545) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/crest-master/crest/Assets/Crest/Crest-Examples/Examples/Materials/Examples_Material_TransparentPrimitive.mat using Guid(ecfe7530e35f6ef4599de91f34369545) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '73a26691f3b220c0cd9d31792301aa65') in 0.007413 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/crest-master/crest/Assets/Crest/Crest-Examples/Examples/Materials/Examples_Material_GerstnerPatchFeathered.mat
+  artifactKey: Guid(884e4c35b797c41188d89df3bbae1502) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/crest-master/crest/Assets/Crest/Crest-Examples/Examples/Materials/Examples_Material_GerstnerPatchFeathered.mat using Guid(884e4c35b797c41188d89df3bbae1502) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b4ece7c57d71887597e6a35d4ce382ad') in 0.005671 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/crest-master/crest/Assets/Crest/Crest-Examples/Examples/Materials/Examples_Material_GradientBackground.mat
+  artifactKey: Guid(e15d89bd334b93444b9f36a1a69e8ed5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/crest-master/crest/Assets/Crest/Crest-Examples/Examples/Materials/Examples_Material_GradientBackground.mat using Guid(e15d89bd334b93444b9f36a1a69e8ed5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cfd294966bb474c1021db1db6b8c3814') in 0.012484 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/crest-master/crest/Assets/Crest/Crest-Examples/Examples/Materials/Examples_Material_AlbedoParticles.mat
+  artifactKey: Guid(d3fc258a65f784b49a0216e2bfd666c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/crest-master/crest/Assets/Crest/Crest-Examples/Examples/Materials/Examples_Material_AlbedoParticles.mat using Guid(d3fc258a65f784b49a0216e2bfd666c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e47af290151d236e5b9e8d6e9d3cb801') in 0.006434 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/crest-master/crest/Assets/Crest/Crest-Examples/Examples/Materials/Examples_Material_DepthOnly.mat
+  artifactKey: Guid(1187e6d1d3c949846a5535a8778eeb20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/crest-master/crest/Assets/Crest/Crest-Examples/Examples/Materials/Examples_Material_DepthOnly.mat using Guid(1187e6d1d3c949846a5535a8778eeb20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2046cef046cd8c436ebdb706df62793d') in 0.009562 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000099 seconds.
+  path: Assets/crest-master/crest/Assets/Development/FloatingOrigin/Materials/FloatingOriginTest_Material_Flow.mat
+  artifactKey: Guid(93685378109ee6646b72d709040feca4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/crest-master/crest/Assets/Development/FloatingOrigin/Materials/FloatingOriginTest_Material_Flow.mat using Guid(93685378109ee6646b72d709040feca4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf7a2f4eaf02513db8d2dd56050c8030') in 0.007672 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/crest-master/crest/Assets/Crest/Crest/Materials/OceanInputs/FoamOverride.mat
+  artifactKey: Guid(68d36d57521f647dfbf893bb13362da3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/crest-master/crest/Assets/Crest/Crest/Materials/OceanInputs/FoamOverride.mat using Guid(68d36d57521f647dfbf893bb13362da3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dbfea67aba5093776219bfb32ad51841') in 0.010393 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000070 seconds.
+  path: Assets/crest-master/crest/Assets/Crest/Crest/Materials/OceanInputs/ClipSurfaceIncludeArea.mat
+  artifactKey: Guid(9b0165879c501044f87adb412540ebfc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/crest-master/crest/Assets/Crest/Crest/Materials/OceanInputs/ClipSurfaceIncludeArea.mat using Guid(9b0165879c501044f87adb412540ebfc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '79d9146692cdc09afe1cc20b82792bad') in 0.011541 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/crest-master/crest/Assets/Crest/Crest-Examples/Examples/Materials/Examples_Material_ShadowOverrideZero.mat
+  artifactKey: Guid(36654958be960ea44bac60fcade8e179) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/crest-master/crest/Assets/Crest/Crest-Examples/Examples/Materials/Examples_Material_ShadowOverrideZero.mat using Guid(36654958be960ea44bac60fcade8e179) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d26828e56b7485f2b90afd7d9c45978') in 0.004534 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000078 seconds.
+  path: Assets/crest-master/crest/Assets/Crest/Crest-Examples/Examples/Materials/Examples_Material_FoamOverrideOne.mat
+  artifactKey: Guid(99f41ed341ffedc4181a46734c9fa3e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/crest-master/crest/Assets/Crest/Crest-Examples/Examples/Materials/Examples_Material_FoamOverrideOne.mat using Guid(99f41ed341ffedc4181a46734c9fa3e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '95899d0e7e5f93f763f0a8ae27c7afe5') in 0.005881 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/crest-master/crest/Assets/Crest/Crest-Examples/Examples/Materials/Examples_Material_MaskedWhite.mat
+  artifactKey: Guid(9f368b49d52d28b478ccad50131d2713) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/crest-master/crest/Assets/Crest/Crest-Examples/Examples/Materials/Examples_Material_MaskedWhite.mat using Guid(9f368b49d52d28b478ccad50131d2713) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6cb2e4a510df848f7d99ddd8f046073b') in 0.006093 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000067 seconds.
+  path: Assets/crest-master/crest/Assets/Crest/Crest-Examples/BoatDev/Materials/DynWavesProceduralInteraction.mat
+  artifactKey: Guid(b0bf1df974228684ebe00bfe0f45a79b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/crest-master/crest/Assets/Crest/Crest-Examples/BoatDev/Materials/DynWavesProceduralInteraction.mat using Guid(b0bf1df974228684ebe00bfe0f45a79b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '950eba32a9d8d22f92931d4e57f68ad1') in 0.013765 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000068 seconds.
+  path: Assets/crest-master/crest/Assets/Crest/Crest-Examples/Examples/Materials/Examples_Material_RippleReflections.mat
+  artifactKey: Guid(0fe3ac90d958341e0808dc48e7939b75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/crest-master/crest/Assets/Crest/Crest-Examples/Examples/Materials/Examples_Material_RippleReflections.mat using Guid(0fe3ac90d958341e0808dc48e7939b75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '25dc85f576571f6c6ac3e7c121f45f10') in 0.004267 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000058 seconds.
+  path: Assets/crest-master/crest/Assets/Crest/Crest-Examples/Examples/Materials/Examples_Material_MaskFillTerrain.mat
+  artifactKey: Guid(bc6046edea1a0084e9c9efb3b62540c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/crest-master/crest/Assets/Crest/Crest-Examples/Examples/Materials/Examples_Material_MaskFillTerrain.mat using Guid(bc6046edea1a0084e9c9efb3b62540c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '48d8aa46e7c19420ece1de38900f769e') in 0.029101 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000082 seconds.
+  path: Assets/Bird Flocks/Included Assets/Unluck Software Feather Particles/Materials/Feather MAT.mat
+  artifactKey: Guid(85c520795adc51e4796bd615482d5bd0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Bird Flocks/Included Assets/Unluck Software Feather Particles/Materials/Feather MAT.mat using Guid(85c520795adc51e4796bd615482d5bd0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b915cc38d6ff70aa6d012bfb05991f9b') in 0.051070 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000071 seconds.
+  path: Assets/crest-master/crest/Assets/Crest/Crest-Examples/Examples/Materials/Examples_Material_MaskFillWhite.mat
+  artifactKey: Guid(56552984e48174ca1877e19cb7827a6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/crest-master/crest/Assets/Crest/Crest-Examples/Examples/Materials/Examples_Material_MaskFillWhite.mat using Guid(56552984e48174ca1877e19cb7827a6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '36cdc152d1eae3b376ed40a6121dabde') in 0.005792 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/crest-master/crest/Assets/Crest/Crest-Examples/BoatDev/Models/OldBoat/OldBoatConvexHull.obj
+  artifactKey: Guid(016595137aae345c39af6f6573ce6d04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/crest-master/crest/Assets/Crest/Crest-Examples/BoatDev/Models/OldBoat/OldBoatConvexHull.obj using Guid(016595137aae345c39af6f6573ce6d04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1630e6419924485f207890fa566f8949') in 0.013723 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/crest-master/crest/Assets/Crest/Crest-Examples/Examples/Materials/Examples_Material_Ocean.mat
+  artifactKey: Guid(d82d92d8d8f214cd0b8bf7c185b2c341) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/crest-master/crest/Assets/Crest/Crest-Examples/Examples/Materials/Examples_Material_Ocean.mat using Guid(d82d92d8d8f214cd0b8bf7c185b2c341) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Metal: Vertex or Fragment Shader "Crest/Ocean" requires a ComputeBuffer at index 1 to be bound, but none provided. Skipping draw calls to avoid crashing.
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEditor.PreviewRenderUtility:Render (bool,bool) (at /Users/bokken/build/output/unity/unity/Editor/Mono/Inspector/PreviewRenderUtility.cs:534)
+UnityEditor.MaterialEditor:DoRenderPreview (UnityEditor.PreviewRenderUtility,bool) (at /Users/bokken/build/output/unity/unity/Editor/Mono/Inspector/MaterialEditor.cs:2261)
+UnityEditor.MaterialEditor:RenderStaticPreview (string,UnityEngine.Object[],int,int) (at /Users/bokken/build/output/unity/unity/Editor/Mono/Inspector/MaterialEditor.cs:2123)
+UnityEditor.AssetPreviewUpdater:CreatePreview (UnityEngine.Object,UnityEngine.Object[],string,int,int) (at /Users/bokken/build/output/unity/unity/Editor/Mono/AssetPreviewUpdater.cs:38)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string) (at /Users/bokken/build/output/unity/unity/Editor/Mono/AssetPreviewUpdater.cs:9)
+
+[/Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs line 37]
+
+ -> (artifact id: '0ee5873386cf83611612c324e944cfb3') in 0.051362 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000070 seconds.
+  path: Assets/crest-master/crest/Assets/Crest/Crest-Examples/Whirlpool/Materials/DepositFoamTex.mat
+  artifactKey: Guid(e0ac8792802c1f046b3d1f3f6c2b4170) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/crest-master/crest/Assets/Crest/Crest-Examples/Whirlpool/Materials/DepositFoamTex.mat using Guid(e0ac8792802c1f046b3d1f3f6c2b4170) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '93ba6a451f162acd67a5651efd75e99f') in 0.009339 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000059 seconds.
+  path: Assets/crest-master/crest/Assets/Crest/Crest-Examples/Examples/Materials/Examples_Material_AddFoam.mat
+  artifactKey: Guid(bd761ca472aded547ad7c481436a7a08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/crest-master/crest/Assets/Crest/Crest-Examples/Examples/Materials/Examples_Material_AddFoam.mat using Guid(bd761ca472aded547ad7c481436a7a08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'beb61f867721d258c3d3e74144349956') in 0.004996 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 11.059039 seconds.
+  path: Assets/crest-master/crest/Assets/Crest/Crest-Examples/Main/Materials/NavalMine.mat
+  artifactKey: Guid(8439bb68f15c44c8db3c54d02367d07d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/crest-master/crest/Assets/Crest/Crest-Examples/Main/Materials/NavalMine.mat using Guid(8439bb68f15c44c8db3c54d02367d07d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '14caabca19d85b9453904c31612e91ae') in 0.036889 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000104 seconds.
+  path: Assets/crest-master/crest/Assets/Crest/Crest-Examples/Whirlpool/Materials/Ocean-Flow.mat
+  artifactKey: Guid(5cca1e9734badca47a1fff682d3c122b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/crest-master/crest/Assets/Crest/Crest-Examples/Whirlpool/Materials/Ocean-Flow.mat using Guid(5cca1e9734badca47a1fff682d3c122b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e66cf40c7e8f1c31c1310c63317db47') in 0.070910 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.034225 seconds.
+  path: Assets/crest-master/crest/Assets/Crest/Crest/Materials/Ocean_UnderwaterCurtain.mat
+  artifactKey: Guid(82d5d473c6433b64593554cc15f927f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/crest-master/crest/Assets/Crest/Crest/Materials/Ocean_UnderwaterCurtain.mat using Guid(82d5d473c6433b64593554cc15f927f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Metal: Vertex or Fragment Shader "Crest/Underwater Curtain" requires a ComputeBuffer at index 1 to be bound, but none provided. Skipping draw calls to avoid crashing.
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEditor.PreviewRenderUtility:Render (bool,bool) (at /Users/bokken/build/output/unity/unity/Editor/Mono/Inspector/PreviewRenderUtility.cs:534)
+UnityEditor.MaterialEditor:DoRenderPreview (UnityEditor.PreviewRenderUtility,bool) (at /Users/bokken/build/output/unity/unity/Editor/Mono/Inspector/MaterialEditor.cs:2261)
+UnityEditor.MaterialEditor:RenderStaticPreview (string,UnityEngine.Object[],int,int) (at /Users/bokken/build/output/unity/unity/Editor/Mono/Inspector/MaterialEditor.cs:2123)
+UnityEditor.AssetPreviewUpdater:CreatePreview (UnityEngine.Object,UnityEngine.Object[],string,int,int) (at /Users/bokken/build/output/unity/unity/Editor/Mono/AssetPreviewUpdater.cs:38)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string) (at /Users/bokken/build/output/unity/unity/Editor/Mono/AssetPreviewUpdater.cs:9)
+
+[/Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs line 37]
+
+ -> (artifact id: 'debe4599ce544b665de9f1abf3f7812f') in 0.041051 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000149 seconds.
+  path: Assets/crest-master/crest/Assets/Crest/Crest-Examples/BoatDev/Materials/OpenOcean.mat
+  artifactKey: Guid(4ee1dcb33f9d13449837c5422e910412) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/crest-master/crest/Assets/Crest/Crest-Examples/BoatDev/Materials/OpenOcean.mat using Guid(4ee1dcb33f9d13449837c5422e910412) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '96903d827bfd071457acdd85d25fe0f4') in 0.033887 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000068 seconds.
+  path: Assets/crest-master/crest/Assets/Development/Scenes/Internal/River.mat
+  artifactKey: Guid(20f84a7985c115848bc65c5c75799238) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/crest-master/crest/Assets/Development/Scenes/Internal/River.mat using Guid(20f84a7985c115848bc65c5c75799238) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '395c53119ecf1468bbda46c24497b6fb') in 0.074020 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000059 seconds.
+  path: Assets/crest-master/crest/Assets/Crest/Crest-Examples/Main/Materials/OceanAlpha_CrestLogo.mat
+  artifactKey: Guid(c2bfe9cdbddfb4a4aba12602cfa9c8ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/crest-master/crest/Assets/Crest/Crest-Examples/Main/Materials/OceanAlpha_CrestLogo.mat using Guid(c2bfe9cdbddfb4a4aba12602cfa9c8ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Metal: Vertex or Fragment Shader "Crest/Ocean Surface Alpha" requires a ComputeBuffer at index 2 to be bound, but none provided. Skipping draw calls to avoid crashing.
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEditor.PreviewRenderUtility:Render (bool,bool) (at /Users/bokken/build/output/unity/unity/Editor/Mono/Inspector/PreviewRenderUtility.cs:534)
+UnityEditor.MaterialEditor:DoRenderPreview (UnityEditor.PreviewRenderUtility,bool) (at /Users/bokken/build/output/unity/unity/Editor/Mono/Inspector/MaterialEditor.cs:2261)
+UnityEditor.MaterialEditor:RenderStaticPreview (string,UnityEngine.Object[],int,int) (at /Users/bokken/build/output/unity/unity/Editor/Mono/Inspector/MaterialEditor.cs:2123)
+UnityEditor.AssetPreviewUpdater:CreatePreview (UnityEngine.Object,UnityEngine.Object[],string,int,int) (at /Users/bokken/build/output/unity/unity/Editor/Mono/AssetPreviewUpdater.cs:38)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string) (at /Users/bokken/build/output/unity/unity/Editor/Mono/AssetPreviewUpdater.cs:9)
+
+[/Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs line 37]
+
+ -> (artifact id: '4b6327a62f84aba8254a5f1a45239d8c') in 0.030842 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.191331 seconds.
+  path: Assets/crest-master/crest/Assets/Crest/Crest-Examples/Shared/Materials/TestSkybox.mat
+  artifactKey: Guid(e5365841cb1f8bc42a6fdbf574f0c32f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/crest-master/crest/Assets/Crest/Crest-Examples/Shared/Materials/TestSkybox.mat using Guid(e5365841cb1f8bc42a6fdbf574f0c32f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b7e7be17a6dcad67658904e7ddfff5a') in 0.017728 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/crest-master/crest/Assets/Crest/Crest/Materials/OceanInputs/WaterHeightFromGeometrySet.mat
+  artifactKey: Guid(50d519b6958dfc14cbb466e674057e7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/crest-master/crest/Assets/Crest/Crest/Materials/OceanInputs/WaterHeightFromGeometrySet.mat using Guid(50d519b6958dfc14cbb466e674057e7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Metal: Vertex or Fragment Shader "Crest/Inputs/Animated Waves/Set Water Height Using Geometry" requires a ComputeBuffer at index 1 to be bound, but none provided. Skipping draw calls to avoid crashing.
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEditor.PreviewRenderUtility:Render (bool,bool) (at /Users/bokken/build/output/unity/unity/Editor/Mono/Inspector/PreviewRenderUtility.cs:534)
+UnityEditor.MaterialEditor:DoRenderPreview (UnityEditor.PreviewRenderUtility,bool) (at /Users/bokken/build/output/unity/unity/Editor/Mono/Inspector/MaterialEditor.cs:2261)
+UnityEditor.MaterialEditor:RenderStaticPreview (string,UnityEngine.Object[],int,int) (at /Users/bokken/build/output/unity/unity/Editor/Mono/Inspector/MaterialEditor.cs:2123)
+UnityEditor.AssetPreviewUpdater:CreatePreview (UnityEngine.Object,UnityEngine.Object[],string,int,int) (at /Users/bokken/build/output/unity/unity/Editor/Mono/AssetPreviewUpdater.cs:38)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string) (at /Users/bokken/build/output/unity/unity/Editor/Mono/AssetPreviewUpdater.cs:9)
+
+[/Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs line 37]
+
+ -> (artifact id: '9fa6a071843e2c84013cfef7876f7c78') in 0.013129 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000060 seconds.
+  path: Assets/crest-master/crest/Assets/Crest/Crest/Materials/OceanInputs/WaterBodyGerstnerPatch.mat
+  artifactKey: Guid(81037f0c2e8306a4ca79d01a8859eaf8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/crest-master/crest/Assets/Crest/Crest/Materials/OceanInputs/WaterBodyGerstnerPatch.mat using Guid(81037f0c2e8306a4ca79d01a8859eaf8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de0e4f3065291e7b05609df8e0103265') in 0.005588 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/crest-master/crest/Assets/Crest/Crest-Examples/BoatDev/Materials/WaterInteractionBoatAlignNormalBack.mat
+  artifactKey: Guid(7abb1dcdba9d80b4fa49c15e11a39f24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/crest-master/crest/Assets/Crest/Crest-Examples/BoatDev/Materials/WaterInteractionBoatAlignNormalBack.mat using Guid(7abb1dcdba9d80b4fa49c15e11a39f24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '617dd2ea94b96c34497c83a3c05b923b') in 0.013836 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/crest-master/crest/Assets/Crest/Crest/Materials/OceanInputs/WaterHeightFromGeometryRemove.mat
+  artifactKey: Guid(34136ec51ee03784e9b70e36afe94f0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/crest-master/crest/Assets/Crest/Crest/Materials/OceanInputs/WaterHeightFromGeometryRemove.mat using Guid(34136ec51ee03784e9b70e36afe94f0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Metal: Vertex or Fragment Shader "Crest/Inputs/Animated Waves/Push Water Under Convex Hull" requires a ComputeBuffer at index 1 to be bound, but none provided. Skipping draw calls to avoid crashing.
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEditor.PreviewRenderUtility:Render (bool,bool) (at /Users/bokken/build/output/unity/unity/Editor/Mono/Inspector/PreviewRenderUtility.cs:534)
+UnityEditor.MaterialEditor:DoRenderPreview (UnityEditor.PreviewRenderUtility,bool) (at /Users/bokken/build/output/unity/unity/Editor/Mono/Inspector/MaterialEditor.cs:2261)
+UnityEditor.MaterialEditor:RenderStaticPreview (string,UnityEngine.Object[],int,int) (at /Users/bokken/build/output/unity/unity/Editor/Mono/Inspector/MaterialEditor.cs:2123)
+UnityEditor.AssetPreviewUpdater:CreatePreview (UnityEngine.Object,UnityEngine.Object[],string,int,int) (at /Users/bokken/build/output/unity/unity/Editor/Mono/AssetPreviewUpdater.cs:38)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string) (at /Users/bokken/build/output/unity/unity/Editor/Mono/AssetPreviewUpdater.cs:9)
+
+[/Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs line 37]
+
+ -> (artifact id: 'fdf71d83da0579b80873152b482e6228') in 0.004179 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.120077 seconds.
+  path: Assets/crest-master/crest/Assets/Crest/Crest-Examples/BoatDev/Materials/WaterInteractionOceanLinerBack.mat
+  artifactKey: Guid(8b9eb32f5fa04f040bad0f971a4a7b36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/crest-master/crest/Assets/Crest/Crest-Examples/BoatDev/Materials/WaterInteractionOceanLinerBack.mat using Guid(8b9eb32f5fa04f040bad0f971a4a7b36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b22ec0ad7c92293d959163d425ab7c79') in 0.005081 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/crest-master/crest/Assets/Crest/Crest/Materials/OceanInputs/WaterLevelFromGeometry.mat
+  artifactKey: Guid(6275fa852a7f1435fa7570404bae86b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/crest-master/crest/Assets/Crest/Crest/Materials/OceanInputs/WaterLevelFromGeometry.mat using Guid(6275fa852a7f1435fa7570404bae86b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'afe56e0533f6891460f68c2eff12621b') in 0.009297 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000063 seconds.
+  path: Assets/crest-master/crest/Assets/Crest/Crest-Examples/BoatDev/Materials/WaterInteractionOceanLinerFront.mat
+  artifactKey: Guid(782a3fbdecc34e14796b312a6ab45da1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/crest-master/crest/Assets/Crest/Crest-Examples/BoatDev/Materials/WaterInteractionOceanLinerFront.mat using Guid(782a3fbdecc34e14796b312a6ab45da1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '07fd306f3e7599b0b6ab1693c947fca6') in 0.011795 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5007.566658 seconds.
+  path: Assets/crest-master/crest/Assets/Development/Scenes/Internal/RiverTerrain.asset
+  artifactKey: Guid(ea03eb5af9564be43a8573b41cc5f267) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/crest-master/crest/Assets/Development/Scenes/Internal/RiverTerrain.asset using Guid(ea03eb5af9564be43a8573b41cc5f267) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '977592b953e77ed2cc022582d024e91c') in 0.121455 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000093 seconds.
+  path: Assets/crest-master/crest/Assets/Crest/Crest-Examples/LakesAndRivers/Terrain/Data/Terrain_3_3_9b11d05b-b237-4de7-82ed-a402f9cedebd.asset
+  artifactKey: Guid(9d9673381bb6ff74e96475734841baed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/crest-master/crest/Assets/Crest/Crest-Examples/LakesAndRivers/Terrain/Data/Terrain_3_3_9b11d05b-b237-4de7-82ed-a402f9cedebd.asset using Guid(9d9673381bb6ff74e96475734841baed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '40b96eae89ce84b6d3ddc755fb671c74') in 0.220282 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/crest-master/crest/Assets/Crest/Crest-Examples/LakesAndRivers/Terrain/Data/Terrain_2_2_b6e03cf0-de91-4cae-b6af-0128d856ae43.asset
+  artifactKey: Guid(3930000252542f94a8637f2fe11bf314) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/crest-master/crest/Assets/Crest/Crest-Examples/LakesAndRivers/Terrain/Data/Terrain_2_2_b6e03cf0-de91-4cae-b6af-0128d856ae43.asset using Guid(3930000252542f94a8637f2fe11bf314) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d15e76b274a928bbd0d629970a2cc84') in 0.030737 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/crest-master/crest/Assets/Crest/Crest-Examples/LakesAndRivers/Terrain/Data/Terrain_3_0_ae064d43-ab51-4240-a34a-6f1f5da8134d.asset
+  artifactKey: Guid(1bd76d287b10bfc4ca8adf3a62610c0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/crest-master/crest/Assets/Crest/Crest-Examples/LakesAndRivers/Terrain/Data/Terrain_3_0_ae064d43-ab51-4240-a34a-6f1f5da8134d.asset using Guid(1bd76d287b10bfc4ca8adf3a62610c0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af19f06678f81e9bb55010ac803e5138') in 0.025543 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/crest-master/crest/Assets/Crest/Crest-Examples/LakesAndRivers/Terrain/Data/Terrain_2_1_82fc4922-5564-4a18-858e-787f6d901556.asset
+  artifactKey: Guid(61a4a9b8fba44b54e91d1d09079f740c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/crest-master/crest/Assets/Crest/Crest-Examples/LakesAndRivers/Terrain/Data/Terrain_2_1_82fc4922-5564-4a18-858e-787f6d901556.asset using Guid(61a4a9b8fba44b54e91d1d09079f740c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a974079881c75da656bc330bc8058b2c') in 0.020184 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000073 seconds.
+  path: Assets/crest-master/crest/Assets/Crest/Crest-Examples/LakesAndRivers/Terrain/Data/Terrain_0_0_8723fb12-db1c-4ba2-97c5-90e784c8adbf.asset
+  artifactKey: Guid(04c0946b007292c44b69efa7e18e016e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/crest-master/crest/Assets/Crest/Crest-Examples/LakesAndRivers/Terrain/Data/Terrain_0_0_8723fb12-db1c-4ba2-97c5-90e784c8adbf.asset using Guid(04c0946b007292c44b69efa7e18e016e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4578b8c05ba779e395e2b574274795e1') in 0.017030 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000061 seconds.
+  path: Assets/crest-master/crest/Assets/Crest/Crest-Examples/LakesAndRivers/Terrain/Data/Terrain_0_1_e85387be-618a-4f11-a28f-1cbc224e6e94.asset
+  artifactKey: Guid(893a7e0580668d84ca5c6527fe35711c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/crest-master/crest/Assets/Crest/Crest-Examples/LakesAndRivers/Terrain/Data/Terrain_0_1_e85387be-618a-4f11-a28f-1cbc224e6e94.asset using Guid(893a7e0580668d84ca5c6527fe35711c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d5300b4739362d358a3808867f80aa6') in 0.041702 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000069 seconds.
+  path: Assets/crest-master/crest/Assets/Crest/Crest-Examples/LakesAndRivers/Terrain/Data/Terrain_0_3_f8883893-11fe-4631-8dfb-2d342383567b.asset
+  artifactKey: Guid(06c6dd9acf1d6ac40b838a5585972c67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/crest-master/crest/Assets/Crest/Crest-Examples/LakesAndRivers/Terrain/Data/Terrain_0_3_f8883893-11fe-4631-8dfb-2d342383567b.asset using Guid(06c6dd9acf1d6ac40b838a5585972c67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c09cec9edc173d62baabead98feec44') in 0.018182 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000074 seconds.
+  path: Assets/crest-master/crest/Assets/Crest/Crest-Examples/LakesAndRivers/Terrain/Data/Terrain_0_2_5f735b10-59bc-418b-b24d-4385eb3a186d.asset
+  artifactKey: Guid(a90bc55e66c2b0445beb585de04cf121) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/crest-master/crest/Assets/Crest/Crest-Examples/LakesAndRivers/Terrain/Data/Terrain_0_2_5f735b10-59bc-418b-b24d-4385eb3a186d.asset using Guid(a90bc55e66c2b0445beb585de04cf121) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7bb7adb36acbfd332d2630811aedfb86') in 0.016493 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 40.387323 seconds.
+  path: Assets/crest-master/crest/Assets/Crest/Crest-Examples/BoatDev/Data/BoatAlignNormal.prefab
+  artifactKey: Guid(71ede3c2ab0b7cb43b7dad6ae3b6190b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/crest-master/crest/Assets/Crest/Crest-Examples/BoatDev/Data/BoatAlignNormal.prefab using Guid(71ede3c2ab0b7cb43b7dad6ae3b6190b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab5e45808849ad2cbd47d0d866df5cec') in 0.127648 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000130 seconds.
+  path: Assets/crest-master/crest/Assets/Crest/Crest-Examples/Shared/Prefabs/DemoCamera.prefab
+  artifactKey: Guid(cada5253abff1481b98c0880eb065d8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/crest-master/crest/Assets/Crest/Crest-Examples/Shared/Prefabs/DemoCamera.prefab using Guid(cada5253abff1481b98c0880eb065d8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3cc49c6fccd0e380da6049b7d7d45626') in 0.012101 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000062 seconds.
+  path: Assets/Bird Flocks/Included Assets/Unluck Software Feather Particles/Prefabs/Feather PS 1.prefab
+  artifactKey: Guid(382d977eb8096f44ebcdffd2bb402b67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Bird Flocks/Included Assets/Unluck Software Feather Particles/Prefabs/Feather PS 1.prefab using Guid(382d977eb8096f44ebcdffd2bb402b67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '052b883424bf9e87a2ebf33e4c206c7a') in 0.042821 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/crest-master/crest/Assets/Crest/Crest/Data/UnderWaterMeniscus.prefab
+  artifactKey: Guid(6d79ad5f5edb537448c2c13e54ffac88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/crest-master/crest/Assets/Crest/Crest/Data/UnderWaterMeniscus.prefab using Guid(6d79ad5f5edb537448c2c13e54ffac88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '74e6f5c58a0d3e5a2529f25affc16a3a') in 0.020496 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000072 seconds.
+  path: Assets/crest-master/crest/Assets/Crest/Crest-Examples/LakesAndRivers/Scenes/Internal/LakesAndRiversScene.prefab
+  artifactKey: Guid(f680af2b9d0ed4006be2e7778f465b4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/crest-master/crest/Assets/Crest/Crest-Examples/LakesAndRivers/Scenes/Internal/LakesAndRiversScene.prefab using Guid(f680af2b9d0ed4006be2e7778f465b4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '323c6f28bb6d589706a8091d1e7aa177') in 0.363173 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Assets/crest-master/crest/Assets/Crest/Crest-Examples/Main/Models/Island0/Island0.fbx
+  artifactKey: Guid(386033b9b0ae11a40bbd970400b6d7c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/crest-master/crest/Assets/Crest/Crest-Examples/Main/Models/Island0/Island0.fbx using Guid(386033b9b0ae11a40bbd970400b6d7c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '74995a1e3d30b0daaa399c6b7cbdea24') in 0.052377 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000164 seconds.
+  path: Assets/crest-master/crest/Assets/Crest/Crest-Examples/LakesAndRivers/Prefabs/Skybox/Models/SkyboxMountains01.fbx
+  artifactKey: Guid(33c18ab296e02854698d7522f967a05b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/crest-master/crest/Assets/Crest/Crest-Examples/LakesAndRivers/Prefabs/Skybox/Models/SkyboxMountains01.fbx using Guid(33c18ab296e02854698d7522f967a05b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f3d49a05c2b0177c0383d4545b4c85b') in 0.011607 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000068 seconds.
+  path: Assets/crest-master/crest/Assets/Crest/Crest-Examples/BoatDev/Data/ferryhumikablend.prefab
+  artifactKey: Guid(7cb6c43c828949b4b9522b0629e00b77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/crest-master/crest/Assets/Crest/Crest-Examples/BoatDev/Data/ferryhumikablend.prefab using Guid(7cb6c43c828949b4b9522b0629e00b77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7824fb1a55fd64f2f063fea6d414e5d3') in 0.021001 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/crest-master/crest/Assets/Crest/Crest-Examples/LakesAndRivers/Prefabs/Skybox/Models/SkyboxMountains05.fbx
+  artifactKey: Guid(2267bd277b3402a42a6b5bcc4ffcd4a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/crest-master/crest/Assets/Crest/Crest-Examples/LakesAndRivers/Prefabs/Skybox/Models/SkyboxMountains05.fbx using Guid(2267bd277b3402a42a6b5bcc4ffcd4a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '29d924c76e9e05665174d552fb738284') in 0.017997 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000084 seconds.
+  path: Assets/Bird Flocks/Bird Flock Seagull/Prefabs/Seagull +Sound +Disable.prefab
+  artifactKey: Guid(6ee38de77d9e1c64f937509ce10c74c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Bird Flocks/Bird Flock Seagull/Prefabs/Seagull +Sound +Disable.prefab using Guid(6ee38de77d9e1c64f937509ce10c74c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '90278523eb1b2cb00ee5cc666083b1cc') in 0.205736 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000094 seconds.
+  path: Assets/Bird Flocks/Bird Flock Seagull/Prefabs/Seagull Flock - Ultra Synced.prefab
+  artifactKey: Guid(2ad4f4c983d92d846985f1832a6aa672) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Bird Flocks/Bird Flock Seagull/Prefabs/Seagull Flock - Ultra Synced.prefab using Guid(2ad4f4c983d92d846985f1832a6aa672) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '31b0da1752c9fdcc2f2039e68de1c5d8') in 0.004166 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000177 seconds.
+  path: Assets/crest-master/crest/Assets/Crest/Crest-Examples/BoatDev/Scenes/Internal/BoatWakesScene.prefab
+  artifactKey: Guid(248badc912ea8f847867e5beab844c1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/crest-master/crest/Assets/Crest/Crest-Examples/BoatDev/Scenes/Internal/BoatWakesScene.prefab using Guid(248badc912ea8f847867e5beab844c1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e39e3fd25c1a0b840769c1092b418a4') in 0.023311 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000063 seconds.
+  path: Assets/Bird Flocks/Bird Flock Seagull/Prefabs/Seagull +Sound.prefab
+  artifactKey: Guid(015d04a72d336e0428ecbac6056389ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Bird Flocks/Bird Flock Seagull/Prefabs/Seagull +Sound.prefab using Guid(015d04a72d336e0428ecbac6056389ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '021a3bc5b6ef30192c129ec2e8679887') in 0.006039 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000073 seconds.
+  path: Assets/crest-master/crest/Assets/Crest/Crest-Examples/Whirlpool/Scenes/Internal/WhirlpoolSceneCore.prefab
+  artifactKey: Guid(123dc0a3f87264eff99c9418d93279b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/crest-master/crest/Assets/Crest/Crest-Examples/Whirlpool/Scenes/Internal/WhirlpoolSceneCore.prefab using Guid(123dc0a3f87264eff99c9418d93279b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f98fe765fdd00e95f431612007f15c7a') in 0.010666 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/crest-master/crest/Assets/Crest/Crest-Examples/LakesAndRivers/Prefabs/Skybox/Models/SkyboxMountains02.fbx
+  artifactKey: Guid(bf2e85838cc80584b9ec701387e7ad2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/crest-master/crest/Assets/Crest/Crest-Examples/LakesAndRivers/Prefabs/Skybox/Models/SkyboxMountains02.fbx using Guid(bf2e85838cc80584b9ec701387e7ad2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9346363648951b61708d213e00cd6b34') in 0.012731 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Bird Flocks/Included Assets/Unluck Software Feather Particles/Prefabs/Feather PS.prefab
+  artifactKey: Guid(dface612412fb6844b79f0751f8b5ee5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Bird Flocks/Included Assets/Unluck Software Feather Particles/Prefabs/Feather PS.prefab using Guid(dface612412fb6844b79f0751f8b5ee5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ec62ac48d2e6380a981b2ce342abaf3') in 0.012825 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000062 seconds.
+  path: Assets/crest-master/crest/Assets/Crest/Crest-Examples/BoatDev/Scenes/Internal/BoatSceneCore.prefab
+  artifactKey: Guid(6f9670b4a4aab47ebb985e512d87b777) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/crest-master/crest/Assets/Crest/Crest-Examples/BoatDev/Scenes/Internal/BoatSceneCore.prefab using Guid(6f9670b4a4aab47ebb985e512d87b777) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '57f550edd875c1762c807dbea1a2bbab') in 0.022783 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/crest-master/crest/Assets/Crest/Crest-Examples/LakesAndRivers/Prefabs/Skybox/Models/SkyboxMountains08.fbx
+  artifactKey: Guid(573a28e0b978e624ba8fe4e35cab352d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/crest-master/crest/Assets/Crest/Crest-Examples/LakesAndRivers/Prefabs/Skybox/Models/SkyboxMountains08.fbx using Guid(573a28e0b978e624ba8fe4e35cab352d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c9a0b0e64d1c07ebf8a83fb6f6d88efd') in 0.010216 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000059 seconds.
+  path: Assets/crest-master/crest/Assets/Crest/Crest-Examples/Main/Scenes/Internal/MainSceneCore.prefab
+  artifactKey: Guid(4a4c6b5fe04934b008bebbd1e74e128a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/crest-master/crest/Assets/Crest/Crest-Examples/Main/Scenes/Internal/MainSceneCore.prefab using Guid(4a4c6b5fe04934b008bebbd1e74e128a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b2f925a347241859e14ef9a38a33e98') in 0.015136 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/crest-master/crest/Assets/Crest/Crest-Examples/LakesAndRivers/Scenes/Internal/LakesAndRiversSceneCore.prefab
+  artifactKey: Guid(1c88c3605046f48589f62f58e96ce897) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/crest-master/crest/Assets/Crest/Crest-Examples/LakesAndRivers/Scenes/Internal/LakesAndRiversSceneCore.prefab using Guid(1c88c3605046f48589f62f58e96ce897) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2408e32f2c95616cc93d3966d377a1d7') in 0.135276 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000059 seconds.
+  path: Assets/crest-master/crest/Assets/Crest/Crest-Examples/Shared/Prefabs/Internal/DemoLightingCore.prefab
+  artifactKey: Guid(b6069949fba7447df912e15e0e4a0e31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/crest-master/crest/Assets/Crest/Crest-Examples/Shared/Prefabs/Internal/DemoLightingCore.prefab using Guid(b6069949fba7447df912e15e0e4a0e31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '20eb864e228709319b8732ab354891c8') in 0.004551 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000299 seconds.
+  path: Assets/crest-master/crest/Assets/Crest/Crest-Examples/BoatDev/Scenes/Internal/BoatScene.prefab
+  artifactKey: Guid(eeab37efd0ddc46a5ba05d96be38bea4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/crest-master/crest/Assets/Crest/Crest-Examples/BoatDev/Scenes/Internal/BoatScene.prefab using Guid(eeab37efd0ddc46a5ba05d96be38bea4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '30d8e1513ea84d1a640c78c9fc723ed6') in 0.019117 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000069 seconds.
+  path: Assets/crest-master/crest/Assets/Crest/Crest-Examples/BoatDev/Scenes/Internal/ThreeBoatsScene.prefab
+  artifactKey: Guid(a4c0a041b31f24d0d8f10f1f384f7e8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/crest-master/crest/Assets/Crest/Crest-Examples/BoatDev/Scenes/Internal/ThreeBoatsScene.prefab using Guid(a4c0a041b31f24d0d8f10f1f384f7e8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec16a8c48f0b720f76ab7a648f546a3f') in 0.019824 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000065 seconds.
+  path: Assets/crest-master/crest/Assets/Crest/Crest-Examples/BoatDev/Data/BoatProbes.prefab
+  artifactKey: Guid(a9de35a642561b7479e8ab40bb529e8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/crest-master/crest/Assets/Crest/Crest-Examples/BoatDev/Data/BoatProbes.prefab using Guid(a9de35a642561b7479e8ab40bb529e8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f6e12e3edd86ab6ab6f81e7759888ef') in 0.010701 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/crest-master/crest/Assets/Crest/Crest-Examples/LakesAndRivers/Prefabs/Skybox/Models/SkyboxMountains03.fbx
+  artifactKey: Guid(5111f521d7066864f84549af2a313da9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/crest-master/crest/Assets/Crest/Crest-Examples/LakesAndRivers/Prefabs/Skybox/Models/SkyboxMountains03.fbx using Guid(5111f521d7066864f84549af2a313da9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2afe951036cef41b84fe0c339eab11c0') in 0.010486 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/crest-master/crest/Assets/Crest/Crest-Examples/Examples/Scenes/Internal/ExamplesScene.prefab
+  artifactKey: Guid(677ec6aff22c04c3a91282cff3144735) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/crest-master/crest/Assets/Crest/Crest-Examples/Examples/Scenes/Internal/ExamplesScene.prefab using Guid(677ec6aff22c04c3a91282cff3144735) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e5819741ba0e9344f3b1cfbc8cafbbe2') in 0.128334 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Bird Flocks/Bird Flock Seagull/Prefabs/Seagull Flock - Wild Synced.prefab
+  artifactKey: Guid(6d51a70ad24f45046b26dab8e9a5a8fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Bird Flocks/Bird Flock Seagull/Prefabs/Seagull Flock - Wild Synced.prefab using Guid(6d51a70ad24f45046b26dab8e9a5a8fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd8da9fbe4339f15e5c7ecfe7bc48280') in 0.002463 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000065 seconds.
+  path: Assets/Bird Flocks/Bird Flock Seagull/Prefabs/Seagull - Landing Spots.prefab
+  artifactKey: Guid(a3d9cd6ae55fb784fb5895bddabaaa34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Bird Flocks/Bird Flock Seagull/Prefabs/Seagull - Landing Spots.prefab using Guid(a3d9cd6ae55fb784fb5895bddabaaa34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '188fc3246de17be4ab07ee7a1986f7c4') in 0.003415 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1562.177929 seconds.
+  path: Assets/crest-master/crest/Assets/Crest/Crest-Examples/LakesAndRivers/Terrain/Textures/Tidal_Pools_B/Tidal_Pools_B_MaskMap.tif
+  artifactKey: Guid(e39c4b98a4756b043a23fb5b81e7b25a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/crest-master/crest/Assets/Crest/Crest-Examples/LakesAndRivers/Terrain/Textures/Tidal_Pools_B/Tidal_Pools_B_MaskMap.tif using Guid(e39c4b98a4756b043a23fb5b81e7b25a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '484eed02fecdcbe675b6137298d6697b') in 1.036889 seconds 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.010322 seconds.
+Registered in 0.001648 seconds.
 Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\jonfr\Desktop\githubprograms\Conquest_Of_The_West\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\jonfr\Desktop\githubprograms\Conquest_Of_The_West\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.72 ms, found 3 plugins.
+Thread 0x297a07000 may have been prematurely finalized
+Symbol file LoadedFromMemory doesn't match image /Users/farahfarah/Documents/GitHub/Conquest_Of_The_West/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/farahfarah/Documents/GitHub/Conquest_Of_The_West/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.81 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.974 seconds
+- Completed reload, in  0.968 seconds
 Domain Reload Profiling:
-	ReloadAssembly (974ms)
-		BeginReloadAssembly (130ms)
+	ReloadAssembly (970ms)
+		BeginReloadAssembly (315ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (4ms)
+			DisableScriptedObjects (11ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (35ms)
-		EndReloadAssembly (746ms)
-			LoadAssemblies (83ms)
+			CreateAndSetChildDomain (141ms)
+		EndReloadAssembly (584ms)
+			LoadAssemblies (103ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (262ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (36ms)
-			SetupLoadedEditorAssemblies (323ms)
+			SetupTypeCache (252ms)
+			ReleaseScriptCaches (3ms)
+			RebuildScriptCaches (38ms)
+			SetupLoadedEditorAssemblies (218ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (12ms)
+				InitializePlatformSupportModulesInManaged (6ms)
 				SetLoadedEditorAssemblies (0ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (69ms)
-				ProcessInitializeOnLoadAttributes (204ms)
-				ProcessInitializeOnLoadMethodAttributes (24ms)
-				AfterProcessingInitializeOnLoad (12ms)
+				BeforeProcessingInitializeOnLoad (47ms)
+				ProcessInitializeOnLoadAttributes (144ms)
+				ProcessInitializeOnLoadMethodAttributes (19ms)
+				AfterProcessingInitializeOnLoad (1ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (8ms)
+			AwakeInstancesAfterBackupRestoration (3ms)
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 3.46 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 1.26 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3512 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 33 unused Assets / (1.7 MB). Loaded Objects now: 4046.
-Memory consumption went from 141.9 MB to 140.2 MB.
-Total: 4.146300 ms (FindLiveObjects: 0.279400 ms CreateObjectMapping: 0.103400 ms MarkObjects: 3.305800 ms  DeleteObjects: 0.456300 ms)
+Unloading 3515 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 48 unused Assets / (1.4 MB). Loaded Objects now: 4103.
+Memory consumption went from 174.8 MB to 173.3 MB.
+Total: 4.632958 ms (FindLiveObjects: 0.175625 ms CreateObjectMapping: 0.096000 ms MarkObjects: 3.109209 ms  DeleteObjects: 1.251375 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
   custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
   custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
   custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.007631 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\jonfr\Desktop\githubprograms\Conquest_Of_The_West\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\jonfr\Desktop\githubprograms\Conquest_Of_The_West\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.75 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.956 seconds
-Domain Reload Profiling:
-	ReloadAssembly (957ms)
-		BeginReloadAssembly (142ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (4ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (40ms)
-		EndReloadAssembly (714ms)
-			LoadAssemblies (90ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (241ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (36ms)
-			SetupLoadedEditorAssemblies (318ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (14ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (88ms)
-				ProcessInitializeOnLoadAttributes (181ms)
-				ProcessInitializeOnLoadMethodAttributes (20ms)
-				AfterProcessingInitializeOnLoad (12ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (6ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 2.34 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3512 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 33 unused Assets / (1.7 MB). Loaded Objects now: 4049.
-Memory consumption went from 141.9 MB to 140.2 MB.
-Total: 3.424100 ms (FindLiveObjects: 0.316600 ms CreateObjectMapping: 0.265800 ms MarkObjects: 2.383800 ms  DeleteObjects: 0.457000 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 214.749722 seconds.
-  path: Assets/Bird Flocks/Bird Flock Seagull/Models/seagullMDL@idle.fbx
-  artifactKey: Guid(6016f034709777444a92206bf2b1a9d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Bird Flocks/Bird Flock Seagull/Models/seagullMDL@idle.fbx using Guid(6016f034709777444a92206bf2b1a9d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ef8ed451b4d887bc7b954153d589879') in 0.089707 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/Bird Flocks/Bird Flock Seagull/Models/seagullMDL@soar.fbx
-  artifactKey: Guid(d11b46dedb4cf8e44872a84305bb5b17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Bird Flocks/Bird Flock Seagull/Models/seagullMDL@soar.fbx using Guid(d11b46dedb4cf8e44872a84305bb5b17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc249639017ecbc981d1331ee7daf0eb') in 0.009549 seconds 
