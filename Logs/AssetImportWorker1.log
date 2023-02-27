@@ -1,6 +1,6 @@
 Using pre-set license
 Built from '2021.3/staging' branch; Version is '2021.3.16f1 (4016570cf34f) revision 4200023'; Using compiler version '192829333'; Build Type 'Release'
-OS: 'Windows 10  (10.0.19044) 64bit Core' Language: 'en' Physical Memory: 16189 MB
+OS: 'Windows 11  (10.0.22621) 64bit Core' Language: 'en' Physical Memory: 8026 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
 
 COMMAND LINE ARGUMENTS:
@@ -11,13 +11,13 @@ C:\Program Files\Unity\Hub\Editor\2021.3.16f1\Editor\Unity.exe
 -name
 AssetImportWorker1
 -projectPath
-C:/Users/tmonc/Documents/GitHub/Conquest_Of_The_West
+C:/Users/Araya/Documents/GitHub/Conquest_Of_The_West
 -logFile
 Logs/AssetImportWorker1.log
 -srvPort
-54465
-Successfully changed project path to: C:/Users/tmonc/Documents/GitHub/Conquest_Of_The_West
-C:/Users/tmonc/Documents/GitHub/Conquest_Of_The_West
+10702
+Successfully changed project path to: C:/Users/Araya/Documents/GitHub/Conquest_Of_The_West
+C:/Users/Araya/Documents/GitHub/Conquest_Of_The_West
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
     "memorysetup-bucket-allocator-granularity=16"
     "memorysetup-bucket-allocator-bucket-count=8"
@@ -47,118 +47,119 @@ C:/Users/tmonc/Documents/GitHub/Conquest_Of_The_West
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [9976] Host "[IP] 10.0.141.188 [Port] 0 [Flags] 2 [Guid] 3982110130 [EditorId] 3982110130 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-OB9D3NI) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [13812] Host "[IP] 192.168.56.1 [Port] 0 [Flags] 2 [Guid] 695431009 [EditorId] 695431009 [Version] 1048832 [Id] WindowsEditor(7,Araya) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [9976] Host "[IP] 10.0.141.188 [Port] 0 [Flags] 2 [Guid] 3982110130 [EditorId] 3982110130 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-OB9D3NI) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [13812] Host "[IP] 192.168.56.1 [Port] 0 [Flags] 2 [Guid] 695431009 [EditorId] 695431009 [Version] 1048832 [Id] WindowsEditor(7,Araya) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
-Refreshing native plugins compatible for Editor in 339.52 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 358.07 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.3.16f1 (4016570cf34f)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path C:/Users/tmonc/Documents/GitHub/Conquest_Of_The_West/Assets
+[Subsystems] Discovering subsystems at path C:/Users/Araya/Documents/GitHub/Conquest_Of_The_West/Assets
 GfxDevice: creating device client; threaded=0; jobified=0
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
-    Renderer: Intel(R) UHD Graphics 605 (ID=0x3184)
+    Renderer: Intel(R) UHD Graphics 620 (ID=0x5917)
     Vendor:   Intel
-    VRAM:     8094 MB
-    Driver:   30.0.101.1631
+    VRAM:     4013 MB
+    Driver:   25.20.100.6446
 Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56452
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56240
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.024476 seconds.
+Registered in 0.030352 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 498.39 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 346.02 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  2.420 seconds
+- Completed reload, in  2.729 seconds
 Domain Reload Profiling:
-	ReloadAssembly (2422ms)
-		BeginReloadAssembly (229ms)
+	ReloadAssembly (2730ms)
+		BeginReloadAssembly (448ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (2ms)
-		EndReloadAssembly (1849ms)
-			LoadAssemblies (222ms)
+			CreateAndSetChildDomain (6ms)
+		EndReloadAssembly (1805ms)
+			LoadAssemblies (435ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (326ms)
+			SetupTypeCache (461ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (126ms)
-			SetupLoadedEditorAssemblies (1182ms)
+			RebuildScriptCaches (195ms)
+			SetupLoadedEditorAssemblies (938ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (30ms)
+				InitializePlatformSupportModulesInManaged (41ms)
 				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (499ms)
-				BeforeProcessingInitializeOnLoad (7ms)
-				ProcessInitializeOnLoadAttributes (484ms)
-				ProcessInitializeOnLoadMethodAttributes (161ms)
+				RefreshPlugins (346ms)
+				BeforeProcessingInitializeOnLoad (5ms)
+				ProcessInitializeOnLoadAttributes (464ms)
+				ProcessInitializeOnLoadMethodAttributes (81ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.028830 seconds.
+Registered in 0.154120 seconds.
 Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\tmonc\Documents\GitHub\Conquest_Of_The_West\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\tmonc\Documents\GitHub\Conquest_Of_The_West\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\Araya\Documents\GitHub\Conquest_Of_The_West\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\Araya\Documents\GitHub\Conquest_Of_The_West\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 2.60 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 1.66 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  4.549 seconds
+- Completed reload, in  6.081 seconds
 Domain Reload Profiling:
-	ReloadAssembly (4573ms)
-		BeginReloadAssembly (371ms)
+	ReloadAssembly (6084ms)
+		BeginReloadAssembly (566ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (20ms)
+			DisableScriptedObjects (28ms)
 			BackupInstance (0ms)
-			ReleaseScriptingObjects (1ms)
-			CreateAndSetChildDomain (50ms)
-		EndReloadAssembly (3686ms)
-			LoadAssemblies (362ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (87ms)
+		EndReloadAssembly (5031ms)
+			LoadAssemblies (785ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (1199ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (192ms)
-			SetupLoadedEditorAssemblies (1673ms)
+			SetupTypeCache (1338ms)
+			ReleaseScriptCaches (4ms)
+			RebuildScriptCaches (301ms)
+			SetupLoadedEditorAssemblies (2463ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (30ms)
+				InitializePlatformSupportModulesInManaged (25ms)
 				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (3ms)
-				BeforeProcessingInitializeOnLoad (325ms)
-				ProcessInitializeOnLoadAttributes (1146ms)
-				ProcessInitializeOnLoadMethodAttributes (134ms)
-				AfterProcessingInitializeOnLoad (33ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (313ms)
+				ProcessInitializeOnLoadAttributes (1954ms)
+				ProcessInitializeOnLoadMethodAttributes (136ms)
+				AfterProcessingInitializeOnLoad (31ms)
 				EditorAssembliesLoaded (1ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (26ms)
+			AwakeInstancesAfterBackupRestoration (37ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.21 seconds
-Refreshing native plugins compatible for Editor in 2.07 ms, found 3 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.20 seconds
+Refreshing native plugins compatible for Editor in 3.26 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3579 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 38 unused Assets / (1.2 MB). Loaded Objects now: 4056.
-Memory consumption went from 158.0 MB to 156.8 MB.
-Total: 9.300000 ms (FindLiveObjects: 1.158800 ms CreateObjectMapping: 0.324300 ms MarkObjects: 7.086000 ms  DeleteObjects: 0.727900 ms)
+Unloading 3580 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 38 unused Assets / (1.2 MB). Loaded Objects now: 4057.
+Memory consumption went from 158.1 MB to 156.9 MB.
+Total: 24.833800 ms (FindLiveObjects: 2.911100 ms CreateObjectMapping: 2.385500 ms MarkObjects: 18.850500 ms  DeleteObjects: 0.681800 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
   custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
   custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
   custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
@@ -166,104 +167,129 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 785175.191290 seconds.
-  path: Assets/Stylized_Pirate_Ship/StylShip_Cannon.prefab
-  artifactKey: Guid(78a33966cc5639b4387c905a99a39d65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Stylized_Pirate_Ship/StylShip_Cannon.prefab using Guid(78a33966cc5639b4387c905a99a39d65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fdda8a1ed8a0125281d97cf28a85d498') in 1.350147 seconds 
+  Time since last request: 928.373760 seconds.
+  path: Assets/crest-master/crest/Assets/Crest/Crest/Materials/Ocean_UnderwaterMeniscus.mat
+  artifactKey: Guid(5ec5f3ec071403f4abc8b8c0271a5523) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/crest-master/crest/Assets/Crest/Crest/Materials/Ocean_UnderwaterMeniscus.mat using Guid(5ec5f3ec071403f4abc8b8c0271a5523) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6278469d86de28786c58da7dd59fa2a4') in 0.698068 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000076 seconds.
+  Time since last request: 0.000036 seconds.
+  path: Assets/crest-master/crest/Assets/Crest/Crest/Textures/Caustics/Caustics_tex_color.png
+  artifactKey: Guid(1712f23cb5185144fa2614d2da21b39e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/crest-master/crest/Assets/Crest/Crest/Textures/Caustics/Caustics_tex_color.png using Guid(1712f23cb5185144fa2614d2da21b39e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '603cca8a2cd0eef79c969ae1518e911c') in 0.195725 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000123 seconds.
+  path: Assets/crest-master/crest/Assets/Crest/Crest/Textures/WaveNormals/WaveNormals.png
+  artifactKey: Guid(800e061692ff7a84e887f439d3364410) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/crest-master/crest/Assets/Crest/Crest/Textures/WaveNormals/WaveNormals.png using Guid(800e061692ff7a84e887f439d3364410) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b551a3e569100536c576ccc0d93361bd') in 0.060887 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000098 seconds.
+  path: Assets/crest-master/crest/Assets/Crest/Crest/Materials/Ocean.mat
+  artifactKey: Guid(9def92ac79181fe41b238e91663f0fad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/crest-master/crest/Assets/Crest/Crest/Materials/Ocean.mat using Guid(9def92ac79181fe41b238e91663f0fad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec72b3e2ed8418e97e71d6ce4d8539dd') in 1.207983 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 87.395617 seconds.
   path: Assets/Stylized_Pirate_Ship/StylShip_Box.prefab
   artifactKey: Guid(c05c34cf7415e0c4e98b01a365a21256) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Stylized_Pirate_Ship/StylShip_Box.prefab using Guid(c05c34cf7415e0c4e98b01a365a21256) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '241945014690595fbb96c3a7cbb22521') in 0.166831 seconds 
+Start importing Assets/Stylized_Pirate_Ship/StylShip_Box.prefab using Guid(c05c34cf7415e0c4e98b01a365a21256) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '56ce2c2ccd39d8b65ba4f27097784ce1') in 0.322504 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000085 seconds.
+  Time since last request: 0.000168 seconds.
+  path: Assets/Stylized_Pirate_Ship/StylShip_Cannon.prefab
+  artifactKey: Guid(78a33966cc5639b4387c905a99a39d65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylized_Pirate_Ship/StylShip_Cannon.prefab using Guid(78a33966cc5639b4387c905a99a39d65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d558e7e36d8b7c86f2412dc9fa9ad27') in 0.109409 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000101 seconds.
   path: Assets/Stylized_Pirate_Ship/StylShip_Pallet.prefab
   artifactKey: Guid(d5f4dcb5d826456449f4bf3ef85b8cbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Stylized_Pirate_Ship/StylShip_Pallet.prefab using Guid(d5f4dcb5d826456449f4bf3ef85b8cbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a95f44d81372ae31713951563b980c43') in 0.132413 seconds 
+Start importing Assets/Stylized_Pirate_Ship/StylShip_Pallet.prefab using Guid(d5f4dcb5d826456449f4bf3ef85b8cbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7bc550e99fa1c896e6e4e4a8be1defab') in 0.104871 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000057 seconds.
-  path: Assets/Stylized_Pirate_Ship/StylShip_Barrel.prefab
-  artifactKey: Guid(7cfcb5999e6bea64ba94ad6d0123f2ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Stylized_Pirate_Ship/StylShip_Barrel.prefab using Guid(7cfcb5999e6bea64ba94ad6d0123f2ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5459925db1ee152125dc4daf591a377d') in 0.084735 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 4833.472813 seconds.
+  Time since last request: 13.491899 seconds.
   path: Assets/Crates And Barrels Pack Volume 1 - Free Version/Models/Mod_BigCrate.fbx
   artifactKey: Guid(a1d8b3ce70b980645b4aa1e32dfe6e9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Crates And Barrels Pack Volume 1 - Free Version/Models/Mod_BigCrate.fbx using Guid(a1d8b3ce70b980645b4aa1e32dfe6e9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e318cfaf8a1cb8a6c7a86d15ad924e9') in 0.368593 seconds 
+Start importing Assets/Crates And Barrels Pack Volume 1 - Free Version/Models/Mod_BigCrate.fbx using Guid(a1d8b3ce70b980645b4aa1e32dfe6e9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '06f01417cb36f07b24b3e365dc395511') in 0.165405 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000080 seconds.
+  Time since last request: 0.000053 seconds.
   path: Assets/Crates And Barrels Pack Volume 1 - Free Version/Models/Mod_SmallCrate02.fbx
   artifactKey: Guid(18f38c8bc57fcdb4b9642744fb2028be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Crates And Barrels Pack Volume 1 - Free Version/Models/Mod_SmallCrate02.fbx using Guid(18f38c8bc57fcdb4b9642744fb2028be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '457659abdbe9abab330a8ff52c3588eb') in 0.093505 seconds 
+Start importing Assets/Crates And Barrels Pack Volume 1 - Free Version/Models/Mod_SmallCrate02.fbx using Guid(18f38c8bc57fcdb4b9642744fb2028be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '49b71896d7937bd36af8b4f8c492c2ec') in 0.063198 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 10.971711 seconds.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Crates And Barrels Pack Volume 1 - Free Version/Models/Mod_SmallCrate01.fbx
+  artifactKey: Guid(83eacf3524c575449b8b7023211c9003) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Crates And Barrels Pack Volume 1 - Free Version/Models/Mod_SmallCrate01.fbx using Guid(83eacf3524c575449b8b7023211c9003) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '046d83d05f6096f1aa9e5b9121277240') in 0.073896 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 9.915051 seconds.
   path: Assets/Crates And Barrels Pack Volume 1 - Free Version/Prefabs/Prefab_BigCrate_color01.prefab
   artifactKey: Guid(81547a1c6ddfb884faaba7a16ef56f57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Crates And Barrels Pack Volume 1 - Free Version/Prefabs/Prefab_BigCrate_color01.prefab using Guid(81547a1c6ddfb884faaba7a16ef56f57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f038164e9d48aea45d5792f83f2399a7') in 0.159153 seconds 
+Start importing Assets/Crates And Barrels Pack Volume 1 - Free Version/Prefabs/Prefab_BigCrate_color01.prefab using Guid(81547a1c6ddfb884faaba7a16ef56f57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b040cdb9e58a6d00789d74e7afcd9d72') in 0.113897 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.002186 seconds.
-  path: Assets/Crates And Barrels Pack Volume 1 - Free Version/Prefabs/Prefab_SmallBarrel_color01.prefab
-  artifactKey: Guid(6a889e51049401145a5079a85e07a9ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Crates And Barrels Pack Volume 1 - Free Version/Prefabs/Prefab_SmallBarrel_color01.prefab using Guid(6a889e51049401145a5079a85e07a9ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '90fdc4b41b4c0112041760edd0dc4675') in 0.101768 seconds 
+  Time since last request: 0.000023 seconds.
+  path: Assets/Crates And Barrels Pack Volume 1 - Free Version/Prefabs/Prefab_SmallCrate02_color01.prefab
+  artifactKey: Guid(881bb6ae806c1b74284970a42224d2ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Crates And Barrels Pack Volume 1 - Free Version/Prefabs/Prefab_SmallCrate02_color01.prefab using Guid(881bb6ae806c1b74284970a42224d2ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e44e99c607bf0a526c71966b0eb8a32') in 0.098199 seconds 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.016397 seconds.
+Registered in 0.010015 seconds.
 Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\tmonc\Documents\GitHub\Conquest_Of_The_West\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\tmonc\Documents\GitHub\Conquest_Of_The_West\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\Araya\Documents\GitHub\Conquest_Of_The_West\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\Araya\Documents\GitHub\Conquest_Of_The_West\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 2.21 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 1.14 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  3.864 seconds
+- Completed reload, in  3.476 seconds
 Domain Reload Profiling:
-	ReloadAssembly (3865ms)
-		BeginReloadAssembly (510ms)
+	ReloadAssembly (3478ms)
+		BeginReloadAssembly (495ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (14ms)
+			DisableScriptedObjects (12ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (124ms)
-		EndReloadAssembly (2987ms)
-			LoadAssemblies (389ms)
+			CreateAndSetChildDomain (128ms)
+		EndReloadAssembly (2532ms)
+			LoadAssemblies (372ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (1036ms)
-			ReleaseScriptCaches (3ms)
-			RebuildScriptCaches (179ms)
-			SetupLoadedEditorAssemblies (1264ms)
+			SetupTypeCache (735ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (428ms)
+			SetupLoadedEditorAssemblies (757ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (82ms)
-				SetLoadedEditorAssemblies (2ms)
-				RefreshPlugins (2ms)
-				BeforeProcessingInitializeOnLoad (275ms)
-				ProcessInitializeOnLoadAttributes (756ms)
-				ProcessInitializeOnLoadMethodAttributes (78ms)
-				AfterProcessingInitializeOnLoad (69ms)
-				EditorAssembliesLoaded (1ms)
+				InitializePlatformSupportModulesInManaged (38ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (234ms)
+				ProcessInitializeOnLoadAttributes (434ms)
+				ProcessInitializeOnLoadMethodAttributes (34ms)
+				AfterProcessingInitializeOnLoad (13ms)
+				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (41ms)
+			AwakeInstancesAfterBackupRestoration (18ms)
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 7.11 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 5.65 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 3517 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 31 unused Assets / (1.2 MB). Loaded Objects now: 4072.
-Memory consumption went from 156.6 MB to 155.4 MB.
-Total: 13.208100 ms (FindLiveObjects: 1.020800 ms CreateObjectMapping: 0.593800 ms MarkObjects: 10.793100 ms  DeleteObjects: 0.796600 ms)
+Unloading 31 unused Assets / (1.2 MB). Loaded Objects now: 4110.
+Memory consumption went from 156.9 MB to 155.7 MB.
+Total: 18.307000 ms (FindLiveObjects: 0.939600 ms CreateObjectMapping: 1.330400 ms MarkObjects: 14.784600 ms  DeleteObjects: 1.249000 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
   custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
   custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
   custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
