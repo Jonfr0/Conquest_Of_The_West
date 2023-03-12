@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/Crest/Crest-Examples/Main/Scenes/main.unity
+- path: Assets/FARAHmain.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0
